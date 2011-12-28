@@ -8,7 +8,7 @@
 
 #import "PhunPhotosViewController.h"
 #import "OverlayViewController.h"
-#import "MyViewController.h"
+//#import "MyViewController.h"
 
 
 //Constants
@@ -21,7 +21,8 @@ NSString *SRCallbackURLBaseString = @"snapnrun://auth";
 @implementation PhunPhotosViewController
 @synthesize flickrRequest;
 @synthesize navController;
-
+@synthesize overlay;
+@synthesize picker;
 
 - (void)didReceiveMemoryWarning
 {
@@ -31,6 +32,7 @@ NSString *SRCallbackURLBaseString = @"snapnrun://auth";
 
 - (IBAction)authorizeFlickrButtonPressed
 {
+    NSLog(@"authorize Flickr button pressed.");
     self.flickrRequest.sessionInfo = kFetchRequestTokenStep;
     [self.flickrRequest fetchOAuthRequestTokenWithCallbackURL:[NSURL URLWithString:SRCallbackURLBaseString]];
     
@@ -39,6 +41,7 @@ NSString *SRCallbackURLBaseString = @"snapnrun://auth";
 
 - (IBAction)defaultLibraryButtonPressed
 {	
+    NSLog(@"defaultLibrary button pressed.");
 	// Show an image picker to allow the user to choose a new photo.
     UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
 	imagePicker.delegate = self;
@@ -51,9 +54,11 @@ NSString *SRCallbackURLBaseString = @"snapnrun://auth";
 
 - (IBAction)defaultCameraButtonPressed
 {
+    NSLog(@"defaultCamera button pressed.");
     UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
 	imagePicker.delegate = self;
     imagePicker.sourceType = UIImagePickerControllerSourceTypeCamera;
+    imagePicker.showsCameraControls = YES;
 	[self presentModalViewController:imagePicker animated:YES];
 	[imagePicker release];
 }
@@ -61,27 +66,35 @@ NSString *SRCallbackURLBaseString = @"snapnrun://auth";
 
 - (IBAction)customCameraButtonPressed
 {
+    NSLog(@"customCamera button pressed.");
     UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
-	imagePicker.delegate = self;
     imagePicker.sourceType = UIImagePickerControllerSourceTypeCamera;
+    imagePicker.cameraCaptureMode = UIImagePickerControllerCameraCaptureModePhoto;
+    imagePicker.cameraDevice = UIImagePickerControllerCameraDeviceRear;
+    imagePicker.showsCameraControls = NO;
+    imagePicker.navigationBarHidden = NO;
+    imagePicker.toolbarHidden = NO;
+    imagePicker.wantsFullScreenLayout = YES;
+    //[self presentModalViewController:imagePicker animated:YES];
     
-    //Haven't gotten this to work yet.
-    //CustomViewController *myViewController = [[CustomViewController alloc] initWithNibName:@"CustomViewController" bundle:nil];
+    
+    // Insert the overlay
+    OverlayViewController *overlayview = [[OverlayViewController alloc] initWithNibName:@"OverlayViewController" bundle:nil];
+    imagePicker.cameraOverlayView = overlayview.view;
+    //self.overlay.pickerReference = self.picker;
+    //imagePicker.cameraOverlayView = self.overlay.view;
+    [self presentModalViewController:imagePicker animated:YES];
+    //imagePicker.delegate = self.overlay;
+    [overlayview release];
+    [imagePicker release];
+    
+    
 
-    //[self presentModalViewController:myViewController animated:YES];
-	[self.navigationController pushViewController:imagePicker animated:YES];
+    //[navController setNavigationBarHidden:NO animated:NO];
+	//[navController pushViewController:self.picker animated:YES];
+    //[self presentModalViewController:customview animated:YES];
 
-    
-    if (![UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera])
-    {
-        // camera is not on this device, don't show the camera button
-        // NSMutableArray *toolbarItems = [NSMutableArray arrayWithCapacity:self.myToolbar.items.count];
-        //[toolbarItems addObjectsFromArray:self.myToolbar.items];
-        // [toolbarItems removeObjectAtIndex:2];
-        // [self.myToolbar setItems:toolbarItems animated:NO];
-    }
-    
-	[imagePicker release];
+	
 }
 
 #pragma mark - View lifecycle
@@ -90,7 +103,7 @@ NSString *SRCallbackURLBaseString = @"snapnrun://auth";
 {
     
     [super viewDidLoad];
-    [self.navigationController setNavigationBarHidden:YES animated:NO];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -129,6 +142,8 @@ NSString *SRCallbackURLBaseString = @"snapnrun://auth";
 
 - (void)dealloc
 {	
+    [overlay release];
+    [picker release];
     [navController release];
     [super dealloc];
 }
