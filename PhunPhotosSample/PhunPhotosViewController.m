@@ -8,6 +8,8 @@
 
 #import "PhunPhotosViewController.h"
 #import "OverlayViewController.h"
+#import "MyViewController.h"
+
 
 //Constants
 NSString *kFetchRequestTokenStep = @"kFetchRequestTokenStep";
@@ -18,7 +20,7 @@ NSString *SRCallbackURLBaseString = @"snapnrun://auth";
 
 @implementation PhunPhotosViewController
 @synthesize flickrRequest;
-
+@synthesize navController;
 
 
 - (void)didReceiveMemoryWarning
@@ -35,14 +37,16 @@ NSString *SRCallbackURLBaseString = @"snapnrun://auth";
     
 }
 
-- (IBAction)choosePhoto 
+- (IBAction)defaultLibraryButtonPressed
 {	
 	// Show an image picker to allow the user to choose a new photo.
-	
-	UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
+    UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
 	imagePicker.delegate = self;
+    imagePicker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
 	[self presentModalViewController:imagePicker animated:YES];
 	[imagePicker release];
+
+
 }
 
 - (IBAction)defaultCameraButtonPressed
@@ -62,11 +66,11 @@ NSString *SRCallbackURLBaseString = @"snapnrun://auth";
     imagePicker.sourceType = UIImagePickerControllerSourceTypeCamera;
     
     //Haven't gotten this to work yet.
-    //OverlayViewController *overlayViewController = [[[OverlayViewController alloc] initWithNibName:@"OverlayViewController" bundle:nil] retain];
-    
-    // as a delegate we will be notified when pictures are taken and when to dismiss the image picker
-    //self.overlayViewController.delegate = self;
-    //self.capturedImages = [NSMutableArray array];
+    //CustomViewController *myViewController = [[CustomViewController alloc] initWithNibName:@"CustomViewController" bundle:nil];
+
+    //[self presentModalViewController:myViewController animated:YES];
+	[self.navigationController pushViewController:imagePicker animated:YES];
+
     
     if (![UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera])
     {
@@ -84,7 +88,9 @@ NSString *SRCallbackURLBaseString = @"snapnrun://auth";
 
 - (void)viewDidLoad
 {
+    
     [super viewDidLoad];
+    [self.navigationController setNavigationBarHidden:YES animated:NO];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -123,7 +129,7 @@ NSString *SRCallbackURLBaseString = @"snapnrun://auth";
 
 - (void)dealloc
 {	
-    
+    [navController release];
     [super dealloc];
 }
 

@@ -8,6 +8,7 @@
 
 #import <AudioToolbox/AudioServices.h>
 #import <UIKit/UIKit.h>
+#import "MyViewController.h"
 #import "OverlayViewController.h"
 #import "ObjectiveFlickr.h"
 
@@ -17,9 +18,10 @@
     OFFlickrAPIRequest *flickrRequest;
     OFFlickrAPIContext *flickrContext;
 	NSString *flickrUserName;
-    
+    UINavigationController *navController;
 }
-
+//Make navController Accessible
+@property (nonatomic, retain) IBOutlet UINavigationController *navController;
 
 //Authorize Flickr Methods
 @property (nonatomic, retain) OFFlickrAPIRequest *flickrRequest;
@@ -35,7 +37,7 @@
 - (IBAction)customCameraButtonPressed;
 
 //default Photo Methods
-- (IBAction)choosePhoto;
+- (IBAction)defaultLibraryButtonPressed;
 - (IBAction)deletePhoto;
 - (void)updatePhotoInfo;
 
