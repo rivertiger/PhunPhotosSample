@@ -1,0 +1,629 @@
+TPhunPhotosSample
+v4
+r1
+cCheck dependencies
+cCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/PhunPhotosSample.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/Info.plist PhunPhotosSample/PhunPhotosSample-Info.plist
+cProcessPCH /var/folders/yC/yCxT8PvWF0yd73b-JmCFbk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhunPhotosSample-Prefix-fxrepmebiswrzmdyqsftlfymrqgy/PhunPhotosSample-Prefix.pch.pth PhunPhotosSample/PhunPhotosSample-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/main.o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/OverlayViewController.o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/OverlayViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/PhunPhotosViewController.o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/LFHTTPRequest.o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/LFHTTPRequest.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/NSData+LFHTTPFormExtensions.o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/NSData+LFHTTPFormExtensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/ObjectiveFlickr.o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/ObjectiveFlickr.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/OFXMLMapper.o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/OFXMLMapper.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/PhunPhotosAppDelegate.o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/OFUtilities.o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/OFUtilities.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/LFSiteReachability.o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/LFSiteReachability.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/PhunPhotosSample normal armv7
+cGenerateDSYMFile /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app.dSYM /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/PhunPhotosSample
+cCompileXIB /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/en.lproj/PhunPhotosViewController.xib
+cCopyStringsFile /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/en.lproj/InfoPlist.strings PhunPhotosSample/en.lproj/InfoPlist.strings
+cCompileXIB /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/en.lproj/OverlayViewController.xib
+cProcessProductPackaging "/Users/ryannewsome/Library/MobileDevice/Provisioning Profiles/71973703-0265-4290-9421-786A4199E74B.mobileprovision" /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/ryannewsome/Library/MobileDevice/Provisioning Profiles/71973703-0265-4290-9421-786A4199E74B.mobileprovision" /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/embedded.mobileprovision
+cTouch /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample.xcent
+cCodeSign /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
+c000000004E7840290000000000000110
+t1316503593
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
+c000000004E5C595800000000000001A7
+t1314675032
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
+c000000004E5C595800000000000001E5
+t1314675032
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004E72F36E00000000005AF640
+t1316156270
+s5961280
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004E72F307000000000032AC00
+t1316156167
+s3320832
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004E72F28700000000003AB0A0
+t1316156039
+s3846304
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E72F3440000000000529540
+t1316156228
+s5412160
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004E72F29300000000000C33E0
+t1316156051
+s799712
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004E7808C7000000000078BE50
+t1316489415
+s7913040
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/LFHTTPRequest.h
+c000000004EF3CC0D0000000000001864
+t1324600333
+s6244
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/LFHTTPRequest.m
+c000000004EF3CC0D0000000000006127
+t1324600333
+s24871
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/LFSiteReachability.h
+c000000004EF3CC0D0000000000000B94
+t1324600333
+s2964
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/LFSiteReachability.m
+c000000004EF3CC0D00000000000022D4
+t1324600333
+s8916
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/LFWebAPIKit.h
+c000000004EF3CC0D00000000000005D0
+t1324600333
+s1488
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/NSData+LFHTTPFormExtensions.h
+c000000004EF3CC0D0000000000000586
+t1324600333
+s1414
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/NSData+LFHTTPFormExtensions.m
+c000000004EF3CC0D0000000000000914
+t1324600333
+s2324
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/OFUtilities.h
+c000000004EF3CC0D00000000000006AE
+t1324600333
+s1710
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/OFUtilities.m
+c000000004EF3CC0D0000000000002C26
+t1324600333
+s11302
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/OFXMLMapper.h
+c000000004EF3CC0D000000000000077C
+t1324600333
+s1916
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/OFXMLMapper.m
+c000000004EF3CC0D000000000000139F
+t1324600333
+s5023
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/ObjectiveFlickr.h
+c000000004EF3CC0D0000000000001D2F
+t1324600333
+s7471
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/ObjectiveFlickr.m
+c000000004EF3CC0D000000000000777D
+t1324600333
+s30589
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/OverlayViewController.h
+c000000004D77BD5D0000000000000FD3
+t1299692893
+s4051
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/OverlayViewController.m
+c000000004D77BD5D0000000000002A75
+t1299692893
+s10869
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosAppDelegate.h
+c000000004EFB5CB9000000000000019C
+t1325096121
+s412
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosAppDelegate.m
+c000000004EFB5CB90000000000000A53
+t1325096121
+s2643
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosSample-Prefix.pch
+c000000004EFB5CB9000000000000014F
+t1325096121
+s335
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.h
+c000000004EFB5DEF00000000000004A2
+t1325096431
+s1186
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m
+c000000004EFB5DEF0000000000000E00
+t1325096431
+s3584
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/en.lproj/InfoPlist.strings
+c000000004EFB5CB9000000000000002D
+t1325096121
+s45
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/en.lproj/OverlayViewController.xib
+c000000004BCCAF9E000000000000666F
+t1271705502
+s26223
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/en.lproj/PhunPhotosViewController.xib
+c000000004EFB5EFC0000000000004241
+t1325096700
+s16961
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/main.m
+c000000004EFB5CB9000000000000016C
+t1325096121
+s364
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app
+t1325096791
+s340
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app.dSYM
+t1325096790
+s102
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/Info.plist
+t1325096787
+s1141
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/PhunPhotosSample
+t1325096790
+s132752
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/PkgInfo
+t1325096787
+s8
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/ResourceRules.plist
+t1325096787
+s485
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/embedded.mobileprovision
+t1325096790
+s7430
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/en.lproj/InfoPlist.strings
+t1325096790
+s42
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/en.lproj/OverlayViewController.nib
+t1325096790
+s1465
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/en.lproj/PhunPhotosViewController.nib
+t1325096790
+s2540
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/LFHTTPRequest.o
+t1325096788
+s51904
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/LFSiteReachability.o
+t1325096788
+s24428
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/NSData+LFHTTPFormExtensions.o
+t1325096788
+s6408
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/OFUtilities.o
+t1325096788
+s17264
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/OFXMLMapper.o
+t1325096788
+s19212
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/ObjectiveFlickr.o
+t1325096788
+s79700
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/OverlayViewController.o
+t1325096788
+s64928
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/PhunPhotosAppDelegate.o
+t1325096788
+s54564
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/PhunPhotosSample.LinkFileList
+c000000004EFB5F530000000000000663
+t1325096787
+s1635
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/PhunPhotosViewController.o
+t1325096788
+s55432
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/main.o
+t1325096788
+s2744
+
+N/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample.xcent
+t1325096790
+s446
+
+N/Users/ryannewsome/Library/MobileDevice/Provisioning Profiles/71973703-0265-4290-9421-786A4199E74B.mobileprovision
+c000000004EE04E5D0000000000001D06
+t1323322973
+s7430
+
+N/var/folders/yC/yCxT8PvWF0yd73b-JmCFbk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhunPhotosSample-Prefix-fxrepmebiswrzmdyqsftlfymrqgy/PhunPhotosSample-Prefix.pch.pth
+t1325096787
+s3849044
+
+NPhunPhotosSample/PhunPhotosSample-Info.plist
+c000000004EFB5CB900000000000004C0
+t1325096121
+s1216
+
+CBuild AST from /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/LFHTTPRequest.m
+r0
+
+CBuild AST from /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/LFSiteReachability.m
+r0
+
+CBuild AST from /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/NSData+LFHTTPFormExtensions.m
+r0
+
+CBuild AST from /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/OFUtilities.m
+r0
+
+CBuild AST from /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/OFXMLMapper.m
+r0
+
+CBuild AST from /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/ObjectiveFlickr.m
+r0
+
+CBuild AST from /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/OverlayViewController.m
+r0
+
+CBuild AST from /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosAppDelegate.m
+r0
+
+CBuild AST from /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m
+r0
+
+CBuild AST from /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese739862e97abb441^2bbda62e97abb441^---0#1#0#--18"Check dependencies36"BEAC83EE-EA82-46FD-947C-8FF43FBB54B9-
+
+CCodeSign /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app
+s346789678.695832
+e346789678.856129
+r1
+xCodeSign
+x/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app
+o/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app: replacing existing signature
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"CodeSign build/Debug-iphoneos/PhunPhotosSample.appfb40b22e97abb441^a52cdb2e97abb441^-128"/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app: replacing existing signature-0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/0000000000000000^819"CodeSign build/Debug-iphoneos/PhunPhotosSample.app    cd /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign "iPhone Developer: James Nguyen (EGZ6QVKY4B)" --resource-rules=/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/ResourceRules.plist --entitlements /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample.xcent /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app36"095D45A2-8F4E-438B-A64C-1D53AF12BC03-
+
+CCompileC build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/LFHTTPRequest.o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/LFHTTPRequest.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s346789588.284061
+e346789588.589762
+r1
+xCompileC
+xbuild/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/LFHTTPRequest.o
+x/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/LFHTTPRequest.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/LFHTTPRequest.m5fed48d496abb441^de8f9bd496abb441^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/LFHTTPRequest.m0000000000000000^2930"CompileC build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/LFHTTPRequest.o PhunPhotosSample/ObjectiveFlickr/LFHTTPRequest.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-generated-files.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-own-target-headers.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-all-target-headers.hmap -iquote /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-project-headers.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/include -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/DerivedSources/armv7 -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/DerivedSources -F/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos -include /var/folders/yC/yCxT8PvWF0yd73b-JmCFbk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhunPhotosSample-Prefix-fxrepmebiswrzmdyqsftlfymrqgy/PhunPhotosSample-Prefix.pch -MMD -MT dependencies -MF /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/LFHTTPRequest.d -c /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/LFHTTPRequest.m -o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/LFHTTPRequest.o36"7F6BF537-4288-41C1-8A6D-5A069096A411-
+
+CCompileC build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/LFSiteReachability.o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/LFSiteReachability.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s346789588.336378
+e346789588.584509
+r1
+xCompileC
+xbuild/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/LFSiteReachability.o
+x/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/LFSiteReachability.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Compile /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/LFSiteReachability.m1f4c56d496abb441^a9bc95d496abb441^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/LFSiteReachability.m0000000000000000^2955"CompileC build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/LFSiteReachability.o PhunPhotosSample/ObjectiveFlickr/LFSiteReachability.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-generated-files.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-own-target-headers.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-all-target-headers.hmap -iquote /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-project-headers.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/include -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/DerivedSources/armv7 -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/DerivedSources -F/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos -include /var/folders/yC/yCxT8PvWF0yd73b-JmCFbk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhunPhotosSample-Prefix-fxrepmebiswrzmdyqsftlfymrqgy/PhunPhotosSample-Prefix.pch -MMD -MT dependencies -MF /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/LFSiteReachability.d -c /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/LFSiteReachability.m -o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/LFSiteReachability.o36"8AE38B5B-D771-481D-A466-E056601F71E1-
+
+CCompileC build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/NSData+LFHTTPFormExtensions.o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/NSData+LFHTTPFormExtensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s346789587.997540
+e346789588.252663
+r1
+xCompileC
+xbuild/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/NSData+LFHTTPFormExtensions.o
+x/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/NSData+LFHTTPFormExtensions.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Compile /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/NSData+LFHTTPFormExtensions.m7688ffd396abb441^bdc440d496abb441^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/NSData+LFHTTPFormExtensions.m0000000000000000^3000"CompileC build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/NSData+LFHTTPFormExtensions.o PhunPhotosSample/ObjectiveFlickr/NSData+LFHTTPFormExtensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-generated-files.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-own-target-headers.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-all-target-headers.hmap -iquote /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-project-headers.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/include -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/DerivedSources/armv7 -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/DerivedSources -F/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos -include /var/folders/yC/yCxT8PvWF0yd73b-JmCFbk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhunPhotosSample-Prefix-fxrepmebiswrzmdyqsftlfymrqgy/PhunPhotosSample-Prefix.pch -MMD -MT dependencies -MF /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/NSData+LFHTTPFormExtensions.d -c /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/NSData+LFHTTPFormExtensions.m -o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/NSData+LFHTTPFormExtensions.o36"039F0C50-638A-44D1-AEC7-182D8EBF2115-
+
+CCompileC build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/OFUtilities.o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/OFUtilities.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s346789588.478731
+e346789588.615559
+r1
+xCompileC
+xbuild/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/OFUtilities.o
+x/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/OFUtilities.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/OFUtilities.m:68:11: warning: no previous prototype for function 'OFGenerateUUIDString' [-Wmissing-prototypes,3]
+o NSString *OFGenerateUUIDString()
+o           ^
+o1 warning generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/OFUtilities.md8d37ad496abb441^42969dd496abb441^-270"/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/OFUtilities.m:68:11: warning: no previous prototype for function 'OFGenerateUUIDString' [-Wmissing-prototypes,3] NSString *OFGenerateUUIDString()           ^1 warning generated.1(21%IDEActivityLogMessage2@57"No previous prototype for function 'OFGenerateUUIDString'-346789588#0#202#-1#-23%DVTTextDocumentLocation3@118"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/OFUtilities.m0000000000000000^67#10#67#10#18446744073709551615#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@118"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/OFUtilities.m0000000000000000^2920"CompileC build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/OFUtilities.o PhunPhotosSample/ObjectiveFlickr/OFUtilities.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-generated-files.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-own-target-headers.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-all-target-headers.hmap -iquote /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-project-headers.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/include -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/DerivedSources/armv7 -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/DerivedSources -F/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos -include /var/folders/yC/yCxT8PvWF0yd73b-JmCFbk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhunPhotosSample-Prefix-fxrepmebiswrzmdyqsftlfymrqgy/PhunPhotosSample-Prefix.pch -MMD -MT dependencies -MF /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/OFUtilities.d -c /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/OFUtilities.m -o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/OFUtilities.o36"68EBF845-0E02-42E3-8552-0D7234387CB0-
+
+CCompileC build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/OFXMLMapper.o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/OFXMLMapper.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s346789588.543397
+e346789588.627983
+r1
+xCompileC
+xbuild/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/OFXMLMapper.o
+x/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/OFXMLMapper.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/OFXMLMapper.ma1488bd496abb441^bdc4a0d496abb441^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/OFXMLMapper.m0000000000000000^2920"CompileC build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/OFXMLMapper.o PhunPhotosSample/ObjectiveFlickr/OFXMLMapper.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-generated-files.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-own-target-headers.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-all-target-headers.hmap -iquote /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-project-headers.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/include -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/DerivedSources/armv7 -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/DerivedSources -F/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos -include /var/folders/yC/yCxT8PvWF0yd73b-JmCFbk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhunPhotosSample-Prefix-fxrepmebiswrzmdyqsftlfymrqgy/PhunPhotosSample-Prefix.pch -MMD -MT dependencies -MF /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/OFXMLMapper.d -c /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/OFXMLMapper.m -o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/OFXMLMapper.o36"7894DC02-229F-4904-B784-897C4B8DD812-
+
+CCompileC build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/ObjectiveFlickr.o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/ObjectiveFlickr.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s346789587.997759
+e346789588.335019
+r1
+xCompileC
+xbuild/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/ObjectiveFlickr.o
+x/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/ObjectiveFlickr.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/ObjectiveFlickr.m5b96ffd396abb441^dbc455d496abb441^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/ObjectiveFlickr.m0000000000000000^2940"CompileC build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/ObjectiveFlickr.o PhunPhotosSample/ObjectiveFlickr/ObjectiveFlickr.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-generated-files.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-own-target-headers.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-all-target-headers.hmap -iquote /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-project-headers.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/include -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/DerivedSources/armv7 -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/DerivedSources -F/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos -include /var/folders/yC/yCxT8PvWF0yd73b-JmCFbk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhunPhotosSample-Prefix-fxrepmebiswrzmdyqsftlfymrqgy/PhunPhotosSample-Prefix.pch -MMD -MT dependencies -MF /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/ObjectiveFlickr.d -c /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/ObjectiveFlickr/ObjectiveFlickr.m -o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/ObjectiveFlickr.o36"741992C8-B40E-4188-B06C-DF71833A62CB-
+
+CCompileC build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/OverlayViewController.o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/OverlayViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s346789588.253925
+e346789588.541757
+r1
+xCompileC
+xbuild/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/OverlayViewController.o
+x/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/OverlayViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/OverlayViewController.m983141d496abb441^672991d496abb441^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/OverlayViewController.m0000000000000000^2938"CompileC build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/OverlayViewController.o PhunPhotosSample/OverlayViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-generated-files.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-own-target-headers.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-all-target-headers.hmap -iquote /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-project-headers.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/include -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/DerivedSources/armv7 -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/DerivedSources -F/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos -include /var/folders/yC/yCxT8PvWF0yd73b-JmCFbk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhunPhotosSample-Prefix-fxrepmebiswrzmdyqsftlfymrqgy/PhunPhotosSample-Prefix.pch -MMD -MT dependencies -MF /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/OverlayViewController.d -c /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/OverlayViewController.m -o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/OverlayViewController.o36"CBB94331-E078-449D-96EA-2165AAB443BB-
+
+CCompileC build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/PhunPhotosAppDelegate.o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s346789587.998739
+e346789588.282525
+r1
+xCompileC
+xbuild/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/PhunPhotosAppDelegate.o
+x/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosAppDelegate.mdfc5ffd396abb441^a05348d496abb441^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosAppDelegate.m0000000000000000^2938"CompileC build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/PhunPhotosAppDelegate.o PhunPhotosSample/PhunPhotosAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-generated-files.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-own-target-headers.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-all-target-headers.hmap -iquote /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-project-headers.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/include -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/DerivedSources/armv7 -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/DerivedSources -F/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos -include /var/folders/yC/yCxT8PvWF0yd73b-JmCFbk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhunPhotosSample-Prefix-fxrepmebiswrzmdyqsftlfymrqgy/PhunPhotosSample-Prefix.pch -MMD -MT dependencies -MF /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/PhunPhotosAppDelegate.d -c /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosAppDelegate.m -o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/PhunPhotosAppDelegate.o36"810DC86C-0FEE-4618-A797-EFACF8013E41-
+
+CCompileC build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/PhunPhotosViewController.o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s346789588.250754
+e346789588.477391
+r1
+xCompileC
+xbuild/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/PhunPhotosViewController.o
+x/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m:9:
+o/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.h:26:53: warning: property 'flickrContext' requires method 'flickrContext' to be defined - use @synthesize, @dynamic or provide a method implementation [3]
+o @property (nonatomic, readonly) OFFlickrAPIContext *flickrContext;
+o                                                     ^
+o/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m:19:1: note: implementation is here [3]
+o @implementation PhunPhotosViewController
+o ^
+oIn file included from /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m:9:
+o/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.h:27:41: warning: property 'flickrUserName' requires method 'flickrUserName' to be defined - use @synthesize, @dynamic or provide a method implementation [3]
+o @property (nonatomic, retain) NSString *flickrUserName;
+o                                         ^
+o/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m:19:1: note: implementation is here [3]
+o @implementation PhunPhotosViewController
+o ^
+oIn file included from /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m:9:
+o/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.h:27:41: warning: property 'flickrUserName' requires method 'setFlickrUserName:' to be defined - use @synthesize, @dynamic or provide a method implementation [3]
+o @property (nonatomic, retain) NSString *flickrUserName;
+o                                         ^
+o/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m:19:1: note: implementation is here [3]
+o @implementation PhunPhotosViewController
+o ^
+o/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m:19:1: warning: incomplete implementation [-Wincomplete-implementation,3]
+o @implementation PhunPhotosViewController
+o ^
+o/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.h:29:1: note: method definition for 'setAndStoreFlickrAuthToken:secret:' not found [3]
+o - (void)setAndStoreFlickrAuthToken:(NSString *)inAuthToken secret:(NSString *)inSecret;
+o ^
+o/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.h:39:1: note: method definition for 'deletePhoto' not found [3]
+o - (IBAction)deletePhoto;
+o ^
+o/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.h:40:1: note: method definition for 'updatePhotoInfo' not found [3]
+o - (void)updatePhotoInfo;
+o ^
+o/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m:19:1: warning: method in protocol not implemented [-Wprotocol,3]
+o @implementation PhunPhotosViewController
+o ^
+o/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/OverlayViewController.h:94:1: note: method declared here [3]
+o - (void)didTakePicture:(UIImage *)picture;
+o ^
+o/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.h:14:1: note: required for direct or indirect protocol 'OverlayViewControllerDelegate' [3]
+o @interface PhunPhotosViewController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate, OverlayViewControllerDelegate, OFFlickrAPIRequestDelegate>
+o ^
+o/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m:19:1: warning: method in protocol not implemented [-Wprotocol,3]
+o @implementation PhunPhotosViewController
+o ^
+o/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/OverlayViewController.h:95:1: note: method declared here [3]
+o - (void)didFinishWithCamera;
+o ^
+o/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.h:14:1: note: required for direct or indirect protocol 'OverlayViewControllerDelegate' [3]
+o @interface PhunPhotosViewController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate, OverlayViewControllerDelegate, OFFlickrAPIRequestDelegate>
+o ^
+o6 warnings generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.mf7e540d496abb441^eca290d496abb441^-4437"In file included from /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m:9:/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.h:26:53: warning: property 'flickrContext' requires method 'flickrContext' to be defined - use @synthesize, @dynamic or provide a method implementation [3] @property (nonatomic, readonly) OFFlickrAPIContext *flickrContext;                                                     ^/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m:19:1: note: implementation is here [3] @implementation PhunPhotosViewController ^In file included from /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m:9:/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.h:27:41: warning: property 'flickrUserName' requires method 'flickrUserName' to be defined - use @synthesize, @dynamic or provide a method implementation [3] @property (nonatomic, retain) NSString *flickrUserName;                                         ^/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m:19:1: note: implementation is here [3] @implementation PhunPhotosViewController ^In file included from /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m:9:/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.h:27:41: warning: property 'flickrUserName' requires method 'setFlickrUserName:' to be defined - use @synthesize, @dynamic or provide a method implementation [3] @property (nonatomic, retain) NSString *flickrUserName;                                         ^/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m:19:1: note: implementation is here [3] @implementation PhunPhotosViewController ^/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m:19:1: warning: incomplete implementation [-Wincomplete-implementation,3] @implementation PhunPhotosViewController ^/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.h:29:1: note: method definition for 'setAndStoreFlickrAuthToken:secret:' not found [3] - (void)setAndStoreFlickrAuthToken:(NSString *)inAuthToken secret:(NSString *)inSecret; ^/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.h:39:1: note: method definition for 'deletePhoto' not found [3] - (IBAction)deletePhoto; ^/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.h:40:1: note: method definition for 'updatePhotoInfo' not found [3] - (void)updatePhotoInfo; ^/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m:19:1: warning: method in protocol not implemented [-Wprotocol,3] @implementation PhunPhotosViewController ^/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/OverlayViewController.h:94:1: note: method declared here [3] - (void)didTakePicture:(UIImage *)picture; ^/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.h:14:1: note: required for direct or indirect protocol 'OverlayViewControllerDelegate' [3] @interface PhunPhotosViewController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate, OverlayViewControllerDelegate, OFFlickrAPIRequestDelegate> ^/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m:19:1: warning: method in protocol not implemented [-Wprotocol,3] @implementation PhunPhotosViewController ^/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/OverlayViewController.h:95:1: note: method declared here [3] - (void)didFinishWithCamera; ^/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.h:14:1: note: required for direct or indirect protocol 'OverlayViewControllerDelegate' [3] @interface PhunPhotosViewController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate, OverlayViewControllerDelegate, OFFlickrAPIRequestDelegate> ^6 warnings generated.6(21%IDEActivityLogMessage2@133"Property 'flickrContext' requires method 'flickrContext' to be defined - use @synthesize, @dynamic or provide a method implementation-346789588#125#254#3(36%IDEActivityLogHeaderInclusionMessage3@124"In file included from /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m:9:-346789588#0#125#-0#-23%DVTTextDocumentLocation4@115"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---2@236"Property 'flickrContext' requires method 'flickrContext' to be defined - use @synthesize, @dynamic or provide a method implementation in /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.h-346789588#18446744073709551615#0#-0#-4@115"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.h0000000000000000^25#52#25#52#18446744073709551615#0#---2@22"Implementation is here-346789588#502#139#-0#-4@115"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m0000000000000000^18#0#18#0#18446744073709551615#0#14"Semantic Issue--1#-4@115"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.h0000000000000000^25#52#25#52#18446744073709551615#0#14"Semantic Issue--2@135"Property 'flickrUserName' requires method 'flickrUserName' to be defined - use @synthesize, @dynamic or provide a method implementation-346789588#811#256#3(3@124"In file included from /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m:9:-346789588#686#125#-0#-4@115"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---2@238"Property 'flickrUserName' requires method 'flickrUserName' to be defined - use @synthesize, @dynamic or provide a method implementation in /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.h-346789588#18446744073709551615#0#-0#-4@115"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.h0000000000000000^26#40#26#40#18446744073709551615#0#---2@22"Implementation is here-346789588#1167#139#-0#-4@115"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m0000000000000000^18#0#18#0#18446744073709551615#0#14"Semantic Issue--1#-4@115"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.h0000000000000000^26#40#26#40#18446744073709551615#0#14"Semantic Issue--2@139"Property 'flickrUserName' requires method 'setFlickrUserName:' to be defined - use @synthesize, @dynamic or provide a method implementation-346789588#1476#260#3(3@124"In file included from /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m:9:-346789588#1351#125#-0#-4@115"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---2@242"Property 'flickrUserName' requires method 'setFlickrUserName:' to be defined - use @synthesize, @dynamic or provide a method implementation in /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.h-346789588#18446744073709551615#0#-0#-4@115"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.h0000000000000000^26#40#26#40#18446744073709551615#0#---2@22"Implementation is here-346789588#1836#139#-0#-4@115"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m0000000000000000^18#0#18#0#18446744073709551615#0#14"Semantic Issue--1#-4@115"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.h0000000000000000^26#40#26#40#18446744073709551615#0#14"Semantic Issue--2@25"Incomplete implementation-346789588#2020#173#3(2@68"Method definition for 'setAndStoreFlickrAuthToken:secret:' not found-346789588#2238#185#-0#-4@115"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.h0000000000000000^28#0#28#0#18446744073709551615#0#14"Semantic Issue--2@45"Method definition for 'deletePhoto' not found-346789588#2515#162#-0#-4@115"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.h0000000000000000^38#0#38#0#18446744073709551615#0#14"Semantic Issue--2@49"Method definition for 'updatePhotoInfo' not found-346789588#2706#166#-0#-4@115"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.h0000000000000000^39#0#39#0#18446744073709551615#0#14"Semantic Issue--1#-4@115"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m0000000000000000^18#0#18#0#18446744073709551615#0#14"Semantic Issue--2@34"Method in protocol not implemented-346789588#2901#165#2(2@20"Method declared here-346789588#3111#134#-0#-4@112"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/OverlayViewController.h0000000000000000^93#0#93#0#18446744073709551615#0#14"Semantic Issue--2@72"Required for direct or indirect protocol 'OverlayViewControllerDelegate'-346789588#3292#189#-0#-4@115"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.h0000000000000000^13#0#13#0#18446744073709551615#0#14"Semantic Issue--1#-4@115"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m0000000000000000^18#0#18#0#18446744073709551615#0#14"Semantic Issue--2@34"Method in protocol not implemented-346789588#3665#165#2(2@20"Method declared here-346789588#3875#134#-0#-4@112"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/OverlayViewController.h0000000000000000^94#0#94#0#18446744073709551615#0#14"Semantic Issue--2@72"Required for direct or indirect protocol 'OverlayViewControllerDelegate'-346789588#4042#189#-0#-4@115"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.h0000000000000000^13#0#13#0#18446744073709551615#0#14"Semantic Issue--1#-4@115"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m0000000000000000^18#0#18#0#18446744073709551615#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation5@115"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m0000000000000000^2953"CompileC build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/PhunPhotosViewController.o PhunPhotosSample/PhunPhotosViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-generated-files.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-own-target-headers.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-all-target-headers.hmap -iquote /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-project-headers.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/include -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/DerivedSources/armv7 -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/DerivedSources -F/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos -include /var/folders/yC/yCxT8PvWF0yd73b-JmCFbk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhunPhotosSample-Prefix-fxrepmebiswrzmdyqsftlfymrqgy/PhunPhotosSample-Prefix.pch -MMD -MT dependencies -MF /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/PhunPhotosViewController.d -c /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosViewController.m -o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/PhunPhotosViewController.o36"AD7486A1-05B0-4AC0-94B3-2EC092F33D10-
+
+CCompileC build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/main.o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s346789587.997576
+e346789588.248942
+r1
+xCompileC
+xbuild/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/main.o
+x/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/main.m7688ffd396abb441^53ca3fd496abb441^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/main.m0000000000000000^2853"CompileC build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/main.o PhunPhotosSample/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-generated-files.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-own-target-headers.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-all-target-headers.hmap -iquote /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-project-headers.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/include -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/DerivedSources/armv7 -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/DerivedSources -F/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos -include /var/folders/yC/yCxT8PvWF0yd73b-JmCFbk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhunPhotosSample-Prefix-fxrepmebiswrzmdyqsftlfymrqgy/PhunPhotosSample-Prefix.pch -MMD -MT dependencies -MF /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/main.d -c /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/main.m -o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/main.o36"AF4036E8-E0D0-4375-9691-C8CC694D1C28-
+
+CCompileXIB /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/en.lproj/OverlayViewController.xib
+s346789590.677920
+e346789590.719479
+r1
+xCompileXIB
+x/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/en.lproj/OverlayViewController.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Compiling /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/en.lproj/OverlayViewController.xib2c9fadd696abb441^3831b8d696abb441^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/en.lproj/OverlayViewController.xib0000000000000000^780"CompileXIB PhunPhotosSample/en.lproj/OverlayViewController.xib    cd /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/en.lproj/OverlayViewController.nib /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/en.lproj/OverlayViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"049E211E-CEC1-4AE6-8E1F-7638D1FF1468-
+
+CCompileXIB /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/en.lproj/PhunPhotosViewController.xib
+s346789590.677910
+e346789590.716355
+r1
+xCompileXIB
+x/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/en.lproj/PhunPhotosViewController.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Compiling /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/en.lproj/PhunPhotosViewController.xibe99eadd696abb441^d463b7d696abb441^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/en.lproj/PhunPhotosViewController.xib0000000000000000^789"CompileXIB PhunPhotosSample/en.lproj/PhunPhotosViewController.xib    cd /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/en.lproj/PhunPhotosViewController.nib /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/en.lproj/PhunPhotosViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"54900560-D920-4DF6-9A97-1DDDB2E94BCF-
+
+CCopyStringsFile /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/en.lproj/InfoPlist.strings PhunPhotosSample/en.lproj/InfoPlist.strings
+s346789590.677429
+e346789590.680429
+r1
+xCopyStringsFile
+x/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/en.lproj/InfoPlist.strings
+xPhunPhotosSample/en.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy PhunPhotosSample/en.lproj/InfoPlist.stringsbf7dadd696abb441^d731aed696abb441^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/en.lproj/InfoPlist.strings0000000000000000^560"CopyStringsFile build/Debug-iphoneos/PhunPhotosSample.app/en.lproj/InfoPlist.strings PhunPhotosSample/en.lproj/InfoPlist.strings    cd /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/en.lproj -- PhunPhotosSample/en.lproj/InfoPlist.strings36"963F2C4B-DA5A-4D81-802A-92A597A62C86-
+
+CCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/PhunPhotosSample.app/ResourceRules.plist
+s346789587.168603
+e346789587.205174
+r1
+xCpResource
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/PhunPhotosSample.app/ResourceRules.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy build/Debug-iphoneos/PhunPhotosSample.app/ResourceRules.plist1b4c2bd396abb441^db8b34d396abb441^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/ResourceRules.plist00f8e02bdcffdf42^650"CpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/PhunPhotosSample.app/ResourceRules.plist    cd /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app36"8F97606D-DECC-44CF-AA04-BD77C13ED438-
+
+CGenerateDSYMFile /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app.dSYM /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/PhunPhotosSample
+s346789590.646203
+e346789590.674297
+r1
+xGenerateDSYMFile
+x/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app.dSYM
+x/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/PhunPhotosSample
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Generating /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app.dSYM527fa5d696abb441^519facd696abb441^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app.dSYM00f8e02bdcffdf42^563"GenerateDSYMFile build/Debug-iphoneos/PhunPhotosSample.app.dSYM build/Debug-iphoneos/PhunPhotosSample.app/PhunPhotosSample    cd /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/PhunPhotosSample -o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app.dSYM36"F1DB3955-7DAD-4728-809D-E7A07D38C616-
+
+CLd /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/PhunPhotosSample normal armv7
+s346789588.629262
+e346789590.644734
+r1
+xLd
+x/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/PhunPhotosSample
+xnormal
+xarmv7
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Link /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/PhunPhotosSamplec137a1d496abb441^1f0fa5d696abb441^---0#0#0#--1101"Ld build/Debug-iphoneos/PhunPhotosSample.app/PhunPhotosSample normal armv7    cd /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -L/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos -F/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos -filelist /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/Objects-normal/armv7/PhunPhotosSample.LinkFileList -dead_strip -miphoneos-version-min=5.0 -framework SystemConfiguration -framework AudioToolbox -framework CFNetwork -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/PhunPhotosSample36"866F8955-9A52-41C9-BC4D-44FCBC828E6A-
+
+CProcessInfoPlistFile /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/Info.plist PhunPhotosSample/PhunPhotosSample-Info.plist
+s346789587.169121
+e346789587.205597
+r1
+xProcessInfoPlistFile
+x/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/Info.plist
+xPhunPhotosSample/PhunPhotosSample-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Process PhunPhotosSample/PhunPhotosSample-Info.plist075c2bd396abb441^fda234d396abb441^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosSample-Info.plist0000000000000000^802"ProcessInfoPlistFile build/Debug-iphoneos/PhunPhotosSample.app/Info.plist PhunPhotosSample/PhunPhotosSample-Info.plist    cd /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility PhunPhotosSample/PhunPhotosSample-Info.plist -genpkginfo /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/ResourceRules.plist -o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/Info.plist36"CCB17584-6153-445F-B505-C1B29BA9FE21-
+
+CProcessPCH /Users/ryannewsome/Library/Developer/Xcode/DerivedData/PhunPhotosSample-bigbmqqjjtscecfyakrlrgedcdiv/Index/PrecompiledHeaders/PhunPhotosSample-Prefix-ajqqqeyhzuipzuaiubmxrqhfdtiz_ast/PhunPhotosSample-Prefix.pch.pth PhunPhotosSample/PhunPhotosSample-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/yC/yCxT8PvWF0yd73b-JmCFbk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhunPhotosSample-Prefix-fxrepmebiswrzmdyqsftlfymrqgy/PhunPhotosSample-Prefix.pch.pth PhunPhotosSample/PhunPhotosSample-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s346789587.208709
+e346789587.996233
+r1
+xProcessPCH
+x/var/folders/yC/yCxT8PvWF0yd73b-JmCFbk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhunPhotosSample-Prefix-fxrepmebiswrzmdyqsftlfymrqgy/PhunPhotosSample-Prefix.pch.pth
+xPhunPhotosSample/PhunPhotosSample-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Precompile PhunPhotosSample/PhunPhotosSample-Prefix.pch868e35d396abb441^1c0affd396abb441^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosSample-Prefix.pch0000000000000000^2866"ProcessPCH /var/folders/yC/yCxT8PvWF0yd73b-JmCFbk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhunPhotosSample-Prefix-fxrepmebiswrzmdyqsftlfymrqgy/PhunPhotosSample-Prefix.pch.pth PhunPhotosSample/PhunPhotosSample-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-generated-files.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-own-target-headers.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-all-target-headers.hmap -iquote /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample-project-headers.hmap -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/include -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/DerivedSources/armv7 -I/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/DerivedSources -F/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos -c /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/PhunPhotosSample/PhunPhotosSample-Prefix.pch -o /var/folders/yC/yCxT8PvWF0yd73b-JmCFbk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhunPhotosSample-Prefix-fxrepmebiswrzmdyqsftlfymrqgy/PhunPhotosSample-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/yC/yCxT8PvWF0yd73b-JmCFbk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhunPhotosSample-Prefix-fxrepmebiswrzmdyqsftlfymrqgy/PhunPhotosSample-Prefix.pch.d36"C723D61F-77C6-4EA1-9F27-ECFD48F30B51-
+
+CProcessProductPackaging "/Users/ryannewsome/Library/MobileDevice/Provisioning Profiles/71973703-0265-4290-9421-786A4199E74B.mobileprovision" /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/embedded.mobileprovision
+s346789590.752433
+e346789590.755573
+r1
+xProcessProductPackaging
+x/Users/ryannewsome/Library/MobileDevice/Provisioning Profiles/71973703-0265-4290-9421-786A4199E74B.mobileprovision
+x/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/embedded.mobileprovision
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection207"ProcessProductPackaging "/Users/ryannewsome/Library/MobileDevice/Provisioning Profiles/71973703-0265-4290-9421-786A4199E74B.mobileprovision" build/Debug-iphoneos/PhunPhotosSample.app/embedded.mobileprovisionc8b6c0d696abb441^2b6dc1d696abb441^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/embedded.mobileprovision0000000000000000^674"ProcessProductPackaging "/Users/ryannewsome/Library/MobileDevice/Provisioning Profiles/71973703-0265-4290-9421-786A4199E74B.mobileprovision" build/Debug-iphoneos/PhunPhotosSample.app/embedded.mobileprovision    cd /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/ryannewsome/Library/MobileDevice/Provisioning Profiles/71973703-0265-4290-9421-786A4199E74B.mobileprovision" -o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app/embedded.mobileprovision36"8E649376-B7A6-4517-90ED-AD6F13BB30CA-
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample.xcent
+s346789590.769568
+e346789590.789809
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
+x/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample.xcent
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection202"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample.xcent1d1fc5d696abb441^9431cad696abb441^---0#0#0#-19%DVTDocumentLocation2@161"file://localhost/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample.xcent00f8e02bdcffdf42^690"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample.xcent    cd /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/PhunPhotosSample.build/Debug-iphoneos/PhunPhotosSample.build/PhunPhotosSample.xcent36"8CDEB27E-D992-415C-9876-CD8A0E36A56E-
+
+CTouch /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app
+s346789590.758047
+e346789590.766862
+r1
+xTouch
+x/Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Touch /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app7026c2d696abb441^1a53c4d696abb441^---0#0#0#--355"Touch build/Debug-iphoneos/PhunPhotosSample.app    cd /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/james.nguyen/Documents/gitrepos/PhunPhotosSample/build/Debug-iphoneos/PhunPhotosSample.app36"268F4B2B-5594-448D-BDD5-815730B3A353-
+

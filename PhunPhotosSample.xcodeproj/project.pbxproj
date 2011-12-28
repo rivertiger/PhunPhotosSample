@@ -20,6 +20,25 @@
 		C6BED7E414AB943900786617 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BED7C514AB943900786617 /* Foundation.framework */; };
 		C6BED7EC14AB943900786617 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6BED7EA14AB943900786617 /* InfoPlist.strings */; };
 		C6BED7EF14AB943A00786617 /* PhunPhotosSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BED7EE14AB943A00786617 /* PhunPhotosSampleTests.m */; };
+		C6BED7F914AB94FF00786617 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BED7F814AB94FF00786617 /* CFNetwork.framework */; };
+		C6BED7FB14AB950400786617 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BED7FA14AB950400786617 /* AudioToolbox.framework */; };
+		C6BED7FD14AB951C00786617 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BED7FC14AB951C00786617 /* SystemConfiguration.framework */; };
+		C6BED80014AB955A00786617 /* OverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BED7FE14AB955A00786617 /* OverlayViewController.m */; };
+		C6BED80114AB955A00786617 /* OverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BED7FE14AB955A00786617 /* OverlayViewController.m */; };
+		C6BED81014AB956A00786617 /* LFHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BED80414AB956A00786617 /* LFHTTPRequest.m */; };
+		C6BED81114AB956A00786617 /* LFHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BED80414AB956A00786617 /* LFHTTPRequest.m */; };
+		C6BED81214AB956A00786617 /* LFSiteReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BED80614AB956A00786617 /* LFSiteReachability.m */; };
+		C6BED81314AB956A00786617 /* LFSiteReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BED80614AB956A00786617 /* LFSiteReachability.m */; };
+		C6BED81414AB956A00786617 /* NSData+LFHTTPFormExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BED80914AB956A00786617 /* NSData+LFHTTPFormExtensions.m */; };
+		C6BED81514AB956A00786617 /* NSData+LFHTTPFormExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BED80914AB956A00786617 /* NSData+LFHTTPFormExtensions.m */; };
+		C6BED81614AB956A00786617 /* ObjectiveFlickr.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BED80B14AB956A00786617 /* ObjectiveFlickr.m */; };
+		C6BED81714AB956A00786617 /* ObjectiveFlickr.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BED80B14AB956A00786617 /* ObjectiveFlickr.m */; };
+		C6BED81814AB956A00786617 /* OFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BED80D14AB956A00786617 /* OFUtilities.m */; };
+		C6BED81914AB956A00786617 /* OFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BED80D14AB956A00786617 /* OFUtilities.m */; };
+		C6BED81A14AB956A00786617 /* OFXMLMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BED80F14AB956A00786617 /* OFXMLMapper.m */; };
+		C6BED81B14AB956A00786617 /* OFXMLMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BED80F14AB956A00786617 /* OFXMLMapper.m */; };
+		C6BED81E14AB95E600786617 /* OverlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6BED81C14AB95E600786617 /* OverlayViewController.xib */; };
+		C6BED81F14AB95E600786617 /* OverlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6BED81C14AB95E600786617 /* OverlayViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +56,40 @@
 		C6BED7C314AB943900786617 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C6BED7C514AB943900786617 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C6BED7C714AB943900786617 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C6BED7CB14AB943900786617 /* PhunPhotosSample-Info.plist */ = {isa = PBXFileReference; path = "PhunPhotosSample-Info.plist"; sourceTree = "<group>"; };
+		C6BED7CB14AB943900786617 /* PhunPhotosSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhunPhotosSample-Info.plist"; sourceTree = "<group>"; };
 		C6BED7CD14AB943900786617 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C6BED7CF14AB943900786617 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C6BED7D114AB943900786617 /* PhunPhotosSample-Prefix.pch */ = {isa = PBXFileReference; path = "PhunPhotosSample-Prefix.pch"; sourceTree = "<group>"; };
-		C6BED7D214AB943900786617 /* PhunPhotosAppDelegate.h */ = {isa = PBXFileReference; path = PhunPhotosAppDelegate.h; sourceTree = "<group>"; };
+		C6BED7D114AB943900786617 /* PhunPhotosSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhunPhotosSample-Prefix.pch"; sourceTree = "<group>"; };
+		C6BED7D214AB943900786617 /* PhunPhotosAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhunPhotosAppDelegate.h; sourceTree = "<group>"; };
 		C6BED7D314AB943900786617 /* PhunPhotosAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhunPhotosAppDelegate.m; sourceTree = "<group>"; };
-		C6BED7D514AB943900786617 /* PhunPhotosViewController.h */ = {isa = PBXFileReference; path = PhunPhotosViewController.h; sourceTree = "<group>"; };
+		C6BED7D514AB943900786617 /* PhunPhotosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhunPhotosViewController.h; sourceTree = "<group>"; };
 		C6BED7D614AB943900786617 /* PhunPhotosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhunPhotosViewController.m; sourceTree = "<group>"; };
 		C6BED7D914AB943900786617 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PhunPhotosViewController.xib; sourceTree = "<group>"; };
 		C6BED7E014AB943900786617 /* PhunPhotosSampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhunPhotosSampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6BED7E114AB943900786617 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		C6BED7E914AB943900786617 /* PhunPhotosSampleTests-Info.plist */ = {isa = PBXFileReference; path = "PhunPhotosSampleTests-Info.plist"; sourceTree = "<group>"; };
+		C6BED7E914AB943900786617 /* PhunPhotosSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhunPhotosSampleTests-Info.plist"; sourceTree = "<group>"; };
 		C6BED7EB14AB943900786617 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C6BED7ED14AB943A00786617 /* PhunPhotosSampleTests.h */ = {isa = PBXFileReference; path = PhunPhotosSampleTests.h; sourceTree = "<group>"; };
+		C6BED7ED14AB943A00786617 /* PhunPhotosSampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhunPhotosSampleTests.h; sourceTree = "<group>"; };
 		C6BED7EE14AB943A00786617 /* PhunPhotosSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhunPhotosSampleTests.m; sourceTree = "<group>"; };
+		C6BED7F814AB94FF00786617 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C6BED7FA14AB950400786617 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C6BED7FC14AB951C00786617 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C6BED7FE14AB955A00786617 /* OverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayViewController.m; sourceTree = "<group>"; };
+		C6BED7FF14AB955A00786617 /* OverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayViewController.h; sourceTree = "<group>"; };
+		C6BED80314AB956A00786617 /* LFHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFHTTPRequest.h; sourceTree = "<group>"; };
+		C6BED80414AB956A00786617 /* LFHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFHTTPRequest.m; sourceTree = "<group>"; };
+		C6BED80514AB956A00786617 /* LFSiteReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFSiteReachability.h; sourceTree = "<group>"; };
+		C6BED80614AB956A00786617 /* LFSiteReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFSiteReachability.m; sourceTree = "<group>"; };
+		C6BED80714AB956A00786617 /* LFWebAPIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFWebAPIKit.h; sourceTree = "<group>"; };
+		C6BED80814AB956A00786617 /* NSData+LFHTTPFormExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+LFHTTPFormExtensions.h"; sourceTree = "<group>"; };
+		C6BED80914AB956A00786617 /* NSData+LFHTTPFormExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+LFHTTPFormExtensions.m"; sourceTree = "<group>"; };
+		C6BED80A14AB956A00786617 /* ObjectiveFlickr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveFlickr.h; sourceTree = "<group>"; };
+		C6BED80B14AB956A00786617 /* ObjectiveFlickr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveFlickr.m; sourceTree = "<group>"; };
+		C6BED80C14AB956A00786617 /* OFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFUtilities.h; sourceTree = "<group>"; };
+		C6BED80D14AB956A00786617 /* OFUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OFUtilities.m; sourceTree = "<group>"; };
+		C6BED80E14AB956A00786617 /* OFXMLMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFXMLMapper.h; sourceTree = "<group>"; };
+		C6BED80F14AB956A00786617 /* OFXMLMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OFXMLMapper.m; sourceTree = "<group>"; };
+		C6BED81D14AB95E600786617 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OverlayViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +97,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6BED7FD14AB951C00786617 /* SystemConfiguration.framework in Frameworks */,
+				C6BED7FB14AB950400786617 /* AudioToolbox.framework in Frameworks */,
+				C6BED7F914AB94FF00786617 /* CFNetwork.framework in Frameworks */,
 				C6BED7C414AB943900786617 /* UIKit.framework in Frameworks */,
 				C6BED7C614AB943900786617 /* Foundation.framework in Frameworks */,
 				C6BED7C814AB943900786617 /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +122,7 @@
 		C6BED7B414AB943900786617 = {
 			isa = PBXGroup;
 			children = (
+				C6BED80214AB956A00786617 /* ObjectiveFlickr */,
 				C6BED7C914AB943900786617 /* PhunPhotosSample */,
 				C6BED7E714AB943900786617 /* PhunPhotosSampleTests */,
 				C6BED7C214AB943900786617 /* Frameworks */,
@@ -100,6 +142,9 @@
 		C6BED7C214AB943900786617 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C6BED7FC14AB951C00786617 /* SystemConfiguration.framework */,
+				C6BED7FA14AB950400786617 /* AudioToolbox.framework */,
+				C6BED7F814AB94FF00786617 /* CFNetwork.framework */,
 				C6BED7C314AB943900786617 /* UIKit.framework */,
 				C6BED7C514AB943900786617 /* Foundation.framework */,
 				C6BED7C714AB943900786617 /* CoreGraphics.framework */,
@@ -111,11 +156,12 @@
 		C6BED7C914AB943900786617 /* PhunPhotosSample */ = {
 			isa = PBXGroup;
 			children = (
+				C6BED7FE14AB955A00786617 /* OverlayViewController.m */,
+				C6BED7FF14AB955A00786617 /* OverlayViewController.h */,
 				C6BED7D214AB943900786617 /* PhunPhotosAppDelegate.h */,
 				C6BED7D314AB943900786617 /* PhunPhotosAppDelegate.m */,
 				C6BED7D514AB943900786617 /* PhunPhotosViewController.h */,
 				C6BED7D614AB943900786617 /* PhunPhotosViewController.m */,
-				C6BED7D814AB943900786617 /* PhunPhotosViewController.xib */,
 				C6BED7CA14AB943900786617 /* Supporting Files */,
 			);
 			path = PhunPhotosSample;
@@ -124,6 +170,8 @@
 		C6BED7CA14AB943900786617 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C6BED7D814AB943900786617 /* PhunPhotosViewController.xib */,
+				C6BED81C14AB95E600786617 /* OverlayViewController.xib */,
 				C6BED7CB14AB943900786617 /* PhunPhotosSample-Info.plist */,
 				C6BED7CC14AB943900786617 /* InfoPlist.strings */,
 				C6BED7CF14AB943900786617 /* main.m */,
@@ -149,6 +197,27 @@
 				C6BED7EA14AB943900786617 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6BED80214AB956A00786617 /* ObjectiveFlickr */ = {
+			isa = PBXGroup;
+			children = (
+				C6BED80314AB956A00786617 /* LFHTTPRequest.h */,
+				C6BED80414AB956A00786617 /* LFHTTPRequest.m */,
+				C6BED80514AB956A00786617 /* LFSiteReachability.h */,
+				C6BED80614AB956A00786617 /* LFSiteReachability.m */,
+				C6BED80714AB956A00786617 /* LFWebAPIKit.h */,
+				C6BED80814AB956A00786617 /* NSData+LFHTTPFormExtensions.h */,
+				C6BED80914AB956A00786617 /* NSData+LFHTTPFormExtensions.m */,
+				C6BED80A14AB956A00786617 /* ObjectiveFlickr.h */,
+				C6BED80B14AB956A00786617 /* ObjectiveFlickr.m */,
+				C6BED80C14AB956A00786617 /* OFUtilities.h */,
+				C6BED80D14AB956A00786617 /* OFUtilities.m */,
+				C6BED80E14AB956A00786617 /* OFXMLMapper.h */,
+				C6BED80F14AB956A00786617 /* OFXMLMapper.m */,
+			);
+			name = ObjectiveFlickr;
+			path = PhunPhotosSample/ObjectiveFlickr;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +293,7 @@
 			files = (
 				C6BED7CE14AB943900786617 /* InfoPlist.strings in Resources */,
 				C6BED7DA14AB943900786617 /* PhunPhotosViewController.xib in Resources */,
+				C6BED81E14AB95E600786617 /* OverlayViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6BED7EC14AB943900786617 /* InfoPlist.strings in Resources */,
+				C6BED81F14AB95E600786617 /* OverlayViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +332,13 @@
 				C6BED7D014AB943900786617 /* main.m in Sources */,
 				C6BED7D414AB943900786617 /* PhunPhotosAppDelegate.m in Sources */,
 				C6BED7D714AB943900786617 /* PhunPhotosViewController.m in Sources */,
+				C6BED80014AB955A00786617 /* OverlayViewController.m in Sources */,
+				C6BED81014AB956A00786617 /* LFHTTPRequest.m in Sources */,
+				C6BED81214AB956A00786617 /* LFSiteReachability.m in Sources */,
+				C6BED81414AB956A00786617 /* NSData+LFHTTPFormExtensions.m in Sources */,
+				C6BED81614AB956A00786617 /* ObjectiveFlickr.m in Sources */,
+				C6BED81814AB956A00786617 /* OFUtilities.m in Sources */,
+				C6BED81A14AB956A00786617 /* OFXMLMapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +347,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6BED7EF14AB943A00786617 /* PhunPhotosSampleTests.m in Sources */,
+				C6BED80114AB955A00786617 /* OverlayViewController.m in Sources */,
+				C6BED81114AB956A00786617 /* LFHTTPRequest.m in Sources */,
+				C6BED81314AB956A00786617 /* LFSiteReachability.m in Sources */,
+				C6BED81514AB956A00786617 /* NSData+LFHTTPFormExtensions.m in Sources */,
+				C6BED81714AB956A00786617 /* ObjectiveFlickr.m in Sources */,
+				C6BED81914AB956A00786617 /* OFUtilities.m in Sources */,
+				C6BED81B14AB956A00786617 /* OFXMLMapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +390,14 @@
 				C6BED7EB14AB943900786617 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C6BED81C14AB95E600786617 /* OverlayViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6BED81D14AB95E600786617 /* en */,
+			);
+			name = OverlayViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
