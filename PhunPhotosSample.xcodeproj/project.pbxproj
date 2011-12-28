@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6BED7C414AB943900786617 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BED7C314AB943900786617 /* UIKit.framework */; };
+		C6BED7C614AB943900786617 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BED7C514AB943900786617 /* Foundation.framework */; };
+		C6BED7C814AB943900786617 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BED7C714AB943900786617 /* CoreGraphics.framework */; };
+		C6BED7CE14AB943900786617 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6BED7CC14AB943900786617 /* InfoPlist.strings */; };
+		C6BED7D014AB943900786617 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BED7CF14AB943900786617 /* main.m */; };
+		C6BED7D414AB943900786617 /* PhunPhotosAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BED7D314AB943900786617 /* PhunPhotosAppDelegate.m */; };
+		C6BED7D714AB943900786617 /* PhunPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BED7D614AB943900786617 /* PhunPhotosViewController.m */; };
+		C6BED7DA14AB943900786617 /* PhunPhotosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6BED7D814AB943900786617 /* PhunPhotosViewController.xib */; };
+		C6BED7E214AB943900786617 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BED7E114AB943900786617 /* SenTestingKit.framework */; };
+		C6BED7E314AB943900786617 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BED7C314AB943900786617 /* UIKit.framework */; };
+		C6BED7E414AB943900786617 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BED7C514AB943900786617 /* Foundation.framework */; };
+		C6BED7EC14AB943900786617 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6BED7EA14AB943900786617 /* InfoPlist.strings */; };
+		C6BED7EF14AB943A00786617 /* PhunPhotosSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BED7EE14AB943A00786617 /* PhunPhotosSampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6BED7E514AB943900786617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6BED7B614AB943900786617 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6BED7BE14AB943900786617;
+			remoteInfo = PhunPhotosSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6BED7BF14AB943900786617 /* PhunPhotosSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhunPhotosSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6BED7C314AB943900786617 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C6BED7C514AB943900786617 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C6BED7C714AB943900786617 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C6BED7CB14AB943900786617 /* PhunPhotosSample-Info.plist */ = {isa = PBXFileReference; path = "PhunPhotosSample-Info.plist"; sourceTree = "<group>"; };
+		C6BED7CD14AB943900786617 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C6BED7CF14AB943900786617 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6BED7D114AB943900786617 /* PhunPhotosSample-Prefix.pch */ = {isa = PBXFileReference; path = "PhunPhotosSample-Prefix.pch"; sourceTree = "<group>"; };
+		C6BED7D214AB943900786617 /* PhunPhotosAppDelegate.h */ = {isa = PBXFileReference; path = PhunPhotosAppDelegate.h; sourceTree = "<group>"; };
+		C6BED7D314AB943900786617 /* PhunPhotosAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhunPhotosAppDelegate.m; sourceTree = "<group>"; };
+		C6BED7D514AB943900786617 /* PhunPhotosViewController.h */ = {isa = PBXFileReference; path = PhunPhotosViewController.h; sourceTree = "<group>"; };
+		C6BED7D614AB943900786617 /* PhunPhotosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhunPhotosViewController.m; sourceTree = "<group>"; };
+		C6BED7D914AB943900786617 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PhunPhotosViewController.xib; sourceTree = "<group>"; };
+		C6BED7E014AB943900786617 /* PhunPhotosSampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhunPhotosSampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6BED7E114AB943900786617 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C6BED7E914AB943900786617 /* PhunPhotosSampleTests-Info.plist */ = {isa = PBXFileReference; path = "PhunPhotosSampleTests-Info.plist"; sourceTree = "<group>"; };
+		C6BED7EB14AB943900786617 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C6BED7ED14AB943A00786617 /* PhunPhotosSampleTests.h */ = {isa = PBXFileReference; path = PhunPhotosSampleTests.h; sourceTree = "<group>"; };
+		C6BED7EE14AB943A00786617 /* PhunPhotosSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhunPhotosSampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6BED7BC14AB943900786617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6BED7C414AB943900786617 /* UIKit.framework in Frameworks */,
+				C6BED7C614AB943900786617 /* Foundation.framework in Frameworks */,
+				C6BED7C814AB943900786617 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6BED7DC14AB943900786617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6BED7E214AB943900786617 /* SenTestingKit.framework in Frameworks */,
+				C6BED7E314AB943900786617 /* UIKit.framework in Frameworks */,
+				C6BED7E414AB943900786617 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6BED7B414AB943900786617 = {
+			isa = PBXGroup;
+			children = (
+				C6BED7C914AB943900786617 /* PhunPhotosSample */,
+				C6BED7E714AB943900786617 /* PhunPhotosSampleTests */,
+				C6BED7C214AB943900786617 /* Frameworks */,
+				C6BED7C014AB943900786617 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6BED7C014AB943900786617 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6BED7BF14AB943900786617 /* PhunPhotosSample.app */,
+				C6BED7E014AB943900786617 /* PhunPhotosSampleTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6BED7C214AB943900786617 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6BED7C314AB943900786617 /* UIKit.framework */,
+				C6BED7C514AB943900786617 /* Foundation.framework */,
+				C6BED7C714AB943900786617 /* CoreGraphics.framework */,
+				C6BED7E114AB943900786617 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6BED7C914AB943900786617 /* PhunPhotosSample */ = {
+			isa = PBXGroup;
+			children = (
+				C6BED7D214AB943900786617 /* PhunPhotosAppDelegate.h */,
+				C6BED7D314AB943900786617 /* PhunPhotosAppDelegate.m */,
+				C6BED7D514AB943900786617 /* PhunPhotosViewController.h */,
+				C6BED7D614AB943900786617 /* PhunPhotosViewController.m */,
+				C6BED7D814AB943900786617 /* PhunPhotosViewController.xib */,
+				C6BED7CA14AB943900786617 /* Supporting Files */,
+			);
+			path = PhunPhotosSample;
+			sourceTree = "<group>";
+		};
+		C6BED7CA14AB943900786617 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6BED7CB14AB943900786617 /* PhunPhotosSample-Info.plist */,
+				C6BED7CC14AB943900786617 /* InfoPlist.strings */,
+				C6BED7CF14AB943900786617 /* main.m */,
+				C6BED7D114AB943900786617 /* PhunPhotosSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6BED7E714AB943900786617 /* PhunPhotosSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6BED7ED14AB943A00786617 /* PhunPhotosSampleTests.h */,
+				C6BED7EE14AB943A00786617 /* PhunPhotosSampleTests.m */,
+				C6BED7E814AB943900786617 /* Supporting Files */,
+			);
+			path = PhunPhotosSampleTests;
+			sourceTree = "<group>";
+		};
+		C6BED7E814AB943900786617 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6BED7E914AB943900786617 /* PhunPhotosSampleTests-Info.plist */,
+				C6BED7EA14AB943900786617 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6BED7BE14AB943900786617 /* PhunPhotosSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6BED7F214AB943A00786617 /* Build configuration list for PBXNativeTarget "PhunPhotosSample" */;
+			buildPhases = (
+				C6BED7BB14AB943900786617 /* Sources */,
+				C6BED7BC14AB943900786617 /* Frameworks */,
+				C6BED7BD14AB943900786617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhunPhotosSample;
+			productName = PhunPhotosSample;
+			productReference = C6BED7BF14AB943900786617 /* PhunPhotosSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6BED7DF14AB943900786617 /* PhunPhotosSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6BED7F514AB943A00786617 /* Build configuration list for PBXNativeTarget "PhunPhotosSampleTests" */;
+			buildPhases = (
+				C6BED7DB14AB943900786617 /* Sources */,
+				C6BED7DC14AB943900786617 /* Frameworks */,
+				C6BED7DD14AB943900786617 /* Resources */,
+				C6BED7DE14AB943900786617 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6BED7E614AB943900786617 /* PBXTargetDependency */,
+			);
+			name = PhunPhotosSampleTests;
+			productName = PhunPhotosSampleTests;
+			productReference = C6BED7E014AB943900786617 /* PhunPhotosSampleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6BED7B614AB943900786617 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Phunware;
+			};
+			buildConfigurationList = C6BED7B914AB943900786617 /* Build configuration list for PBXProject "PhunPhotosSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C6BED7B414AB943900786617;
+			productRefGroup = C6BED7C014AB943900786617 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6BED7BE14AB943900786617 /* PhunPhotosSample */,
+				C6BED7DF14AB943900786617 /* PhunPhotosSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6BED7BD14AB943900786617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6BED7CE14AB943900786617 /* InfoPlist.strings in Resources */,
+				C6BED7DA14AB943900786617 /* PhunPhotosViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6BED7DD14AB943900786617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6BED7EC14AB943900786617 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C6BED7DE14AB943900786617 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6BED7BB14AB943900786617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6BED7D014AB943900786617 /* main.m in Sources */,
+				C6BED7D414AB943900786617 /* PhunPhotosAppDelegate.m in Sources */,
+				C6BED7D714AB943900786617 /* PhunPhotosViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6BED7DB14AB943900786617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6BED7EF14AB943A00786617 /* PhunPhotosSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6BED7E614AB943900786617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6BED7BE14AB943900786617 /* PhunPhotosSample */;
+			targetProxy = C6BED7E514AB943900786617 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6BED7CC14AB943900786617 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6BED7CD14AB943900786617 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C6BED7D814AB943900786617 /* PhunPhotosViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6BED7D914AB943900786617 /* en */,
+			);
+			name = PhunPhotosViewController.xib;
+			sourceTree = "<group>";
+		};
+		C6BED7EA14AB943900786617 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6BED7EB14AB943900786617 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6BED7F014AB943A00786617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C6BED7F114AB943A00786617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6BED7F314AB943A00786617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhunPhotosSample/PhunPhotosSample-Prefix.pch";
+				INFOPLIST_FILE = "PhunPhotosSample/PhunPhotosSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C6BED7F414AB943A00786617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhunPhotosSample/PhunPhotosSample-Prefix.pch";
+				INFOPLIST_FILE = "PhunPhotosSample/PhunPhotosSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C6BED7F614AB943A00786617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhunPhotosSample.app/PhunPhotosSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhunPhotosSample/PhunPhotosSample-Prefix.pch";
+				INFOPLIST_FILE = "PhunPhotosSampleTests/PhunPhotosSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C6BED7F714AB943A00786617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhunPhotosSample.app/PhunPhotosSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhunPhotosSample/PhunPhotosSample-Prefix.pch";
+				INFOPLIST_FILE = "PhunPhotosSampleTests/PhunPhotosSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6BED7B914AB943900786617 /* Build configuration list for PBXProject "PhunPhotosSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6BED7F014AB943A00786617 /* Debug */,
+				C6BED7F114AB943A00786617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6BED7F214AB943A00786617 /* Build configuration list for PBXNativeTarget "PhunPhotosSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6BED7F314AB943A00786617 /* Debug */,
+				C6BED7F414AB943A00786617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6BED7F514AB943A00786617 /* Build configuration list for PBXNativeTarget "PhunPhotosSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6BED7F614AB943A00786617 /* Debug */,
+				C6BED7F714AB943A00786617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6BED7B614AB943900786617 /* Project object */;
+}
