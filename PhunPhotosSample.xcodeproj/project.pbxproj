@@ -41,8 +41,6 @@
 		C6BED81B14AB956A00786617 /* OFXMLMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BED80F14AB956A00786617 /* OFXMLMapper.m */; };
 		C6BED81E14AB95E600786617 /* OverlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6BED81C14AB95E600786617 /* OverlayViewController.xib */; };
 		C6BED81F14AB95E600786617 /* OverlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6BED81C14AB95E600786617 /* OverlayViewController.xib */; };
-		C6BED82614AB98F000786617 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BED82514AB98F000786617 /* MyViewController.m */; };
-		C6BED82714AB98F000786617 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BED82514AB98F000786617 /* MyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,8 +93,6 @@
 		C6BED80E14AB956A00786617 /* OFXMLMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFXMLMapper.h; sourceTree = "<group>"; };
 		C6BED80F14AB956A00786617 /* OFXMLMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OFXMLMapper.m; sourceTree = "<group>"; };
 		C6BED81D14AB95E600786617 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OverlayViewController.xib; sourceTree = "<group>"; };
-		C6BED82414AB98F000786617 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
-		C6BED82514AB98F000786617 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,8 +159,6 @@
 		C6BED7C914AB943900786617 /* PhunPhotosSample */ = {
 			isa = PBXGroup;
 			children = (
-				C6BED82414AB98F000786617 /* MyViewController.h */,
-				C6BED82514AB98F000786617 /* MyViewController.m */,
 				C6BED7FE14AB955A00786617 /* OverlayViewController.m */,
 				C6BED7FF14AB955A00786617 /* OverlayViewController.h */,
 				C6BED7D214AB943900786617 /* PhunPhotosAppDelegate.h */,
@@ -351,7 +345,6 @@
 				C6BED81614AB956A00786617 /* ObjectiveFlickr.m in Sources */,
 				C6BED81814AB956A00786617 /* OFUtilities.m in Sources */,
 				C6BED81A14AB956A00786617 /* OFXMLMapper.m in Sources */,
-				C6BED82614AB98F000786617 /* MyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +360,6 @@
 				C6BED81714AB956A00786617 /* ObjectiveFlickr.m in Sources */,
 				C6BED81914AB956A00786617 /* OFUtilities.m in Sources */,
 				C6BED81B14AB956A00786617 /* OFXMLMapper.m in Sources */,
-				C6BED82714AB98F000786617 /* MyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

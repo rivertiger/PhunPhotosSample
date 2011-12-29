@@ -20,13 +20,12 @@
     OFFlickrAPIContext *flickrContext;
 	NSString *flickrUserName;
     UINavigationController *navController;
-    UIImagePickerController *picker;
-    OverlayViewController *overlay;
+
 }
 //Make navController Accessible
 @property (nonatomic, retain) IBOutlet UINavigationController *navController;
-@property (nonatomic, retain) IBOutlet OverlayViewController *overlay;
-@property (nonatomic, retain) IBOutlet UIImagePickerController *picker;
+
+
 
 //Authorize Flickr Methods
 @property (nonatomic, retain) OFFlickrAPIRequest *flickrRequest;

@@ -21,8 +21,8 @@ NSString *SRCallbackURLBaseString = @"snapnrun://auth";
 @implementation PhunPhotosViewController
 @synthesize flickrRequest;
 @synthesize navController;
-@synthesize overlay;
-@synthesize picker;
+
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -88,16 +88,27 @@ NSString *SRCallbackURLBaseString = @"snapnrun://auth";
     
     //[overlayview release];
     [imagePicker release];
-    
-    
-
-    //[navController setNavigationBarHidden:NO animated:NO];
-	//[navController pushViewController:self.picker animated:YES];
-    //[self presentModalViewController:customview animated:YES];
-
 	
 }
 
+#pragma mark -
+#pragma mark OverlayViewControllerDelegate
+
+// as a delegate we are being told a picture was taken
+- (void)didTakePicture:(UIImage *)picture
+{
+    NSMutableArray *capturedImages;
+    [capturedImages addObject:picture];
+}
+
+// as a delegate we are told to finished with the camera
+- (void)didFinishWithCamera
+{
+    NSMutableArray *capturedImages;
+    [self dismissModalViewControllerAnimated:YES];
+
+
+}
 
 
 #pragma mark - View lifecycle
@@ -145,8 +156,6 @@ NSString *SRCallbackURLBaseString = @"snapnrun://auth";
 
 - (void)dealloc
 {	
-    [overlay release];
-    [picker release];
     [super dealloc];
 }
 
