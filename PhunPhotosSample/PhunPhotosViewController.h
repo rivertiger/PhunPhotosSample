@@ -40,6 +40,9 @@
 //custom Camera Methods
 - (IBAction)customCameraButtonPressed;
 
+//default Camera Methods
+- (IBAction)defaultVideoCameraButtonPressed;
+
 //default Photo Methods
 - (IBAction)defaultLibraryButtonPressed;
 - (IBAction)deletePhoto;

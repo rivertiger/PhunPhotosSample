@@ -39,7 +39,7 @@
 					<object class="IBUIButton" id="1022348096">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{204, 41}, {96, 37}}</string>
+						<string key="NSFrame">{{204, 33}, {96, 37}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="886185913"/>
@@ -90,7 +90,7 @@
 						</object>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">1</int>
-						<float key="IBUIMinimumFontSize">10</float>
+						<float key="IBUIMinimumFontSize">8</float>
 						<object class="IBUIFontDescription" key="IBUIFontDescription" id="383015239">
 							<int key="type">1</int>
 							<double key="pointSize">17</double>
@@ -104,10 +104,10 @@
 					<object class="IBUILabel" id="765236929">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{185, 187}, {125, 21}}</string>
+						<string key="NSFrame">{{187, 78}, {125, 21}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="260939909"/>
+						<reference key="NSNextKeyView" ref="923366968"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUIContentMode">7</int>
@@ -121,13 +121,33 @@
 						<reference key="IBUIFontDescription" ref="383015239"/>
 						<reference key="IBUIFont" ref="358063664"/>
 					</object>
+					<object class="IBUILabel" id="989849468">
+						<reference key="NSNextResponder" ref="774585933"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{190, 142}, {125, 21}}</string>
+						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="893046126"/>
+						<bool key="IBUIOpaque">NO</bool>
+						<bool key="IBUIClipsSubviews">YES</bool>
+						<int key="IBUIContentMode">7</int>
+						<bool key="IBUIUserInteractionEnabled">NO</bool>
+						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						<string key="IBUIText">Video Camera</string>
+						<reference key="IBUITextColor" ref="950545484"/>
+						<nil key="IBUIHighlightedColor"/>
+						<int key="IBUIBaselineAdjustment">1</int>
+						<float key="IBUIMinimumFontSize">10</float>
+						<reference key="IBUIFontDescription" ref="383015239"/>
+						<reference key="IBUIFont" ref="358063664"/>
+					</object>
 					<object class="IBUILabel" id="886185913">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{190, 101}, {125, 21}}</string>
+						<string key="NSFrame">{{6, 86}, {125, 21}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="923366968"/>
+						<reference key="NSNextKeyView" ref="765236929"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUIContentMode">7</int>
@@ -186,10 +206,10 @@
 					<object class="IBUIButton" id="260939909">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{204, 216}, {96, 37}}</string>
+						<string key="NSFrame">{{204, 97}, {96, 37}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
+						<reference key="NSNextKeyView" ref="989849468"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
@@ -208,16 +228,38 @@
 					<object class="IBUIButton" id="923366968">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{204, 130}, {96, 37}}</string>
+						<string key="NSFrame">{{20, 115}, {96, 37}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="765236929"/>
+						<reference key="NSNextKeyView" ref="260939909"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<int key="IBUIButtonType">1</int>
 						<string key="IBUINormalTitle">Library</string>
+						<reference key="IBUIHighlightedTitleColor" ref="968150920"/>
+						<object class="NSColor" key="IBUINormalTitleColor">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
+						</object>
+						<reference key="IBUINormalTitleShadowColor" ref="313577224"/>
+						<reference key="IBUIFontDescription" ref="739604373"/>
+						<reference key="IBUIFont" ref="45387532"/>
+					</object>
+					<object class="IBUIButton" id="893046126">
+						<reference key="NSNextResponder" ref="774585933"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{204, 165}, {96, 37}}</string>
+						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
+						<bool key="IBUIOpaque">NO</bool>
+						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						<int key="IBUIContentHorizontalAlignment">0</int>
+						<int key="IBUIContentVerticalAlignment">0</int>
+						<int key="IBUIButtonType">1</int>
+						<string key="IBUINormalTitle">Record</string>
 						<reference key="IBUIHighlightedTitleColor" ref="968150920"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
@@ -290,6 +332,15 @@
 					</object>
 					<int key="connectionID">23</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">defaultVideoCameraButtonPressed</string>
+						<reference key="source" ref="893046126"/>
+						<reference key="destination" ref="372490531"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">30</int>
+				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<array key="orderedObjects">
@@ -314,14 +365,16 @@
 						<int key="objectID">6</int>
 						<reference key="object" ref="774585933"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="1022348096"/>
 							<reference ref="785834164"/>
 							<reference ref="400355594"/>
 							<reference ref="914446452"/>
-							<reference ref="260939909"/>
-							<reference ref="765236929"/>
-							<reference ref="923366968"/>
 							<reference ref="886185913"/>
+							<reference ref="923366968"/>
+							<reference ref="765236929"/>
+							<reference ref="260939909"/>
+							<reference ref="1022348096"/>
+							<reference ref="989849468"/>
+							<reference ref="893046126"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -365,6 +418,16 @@
 						<reference key="object" ref="886185913"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">26</int>
+						<reference key="object" ref="893046126"/>
+						<reference key="parent" ref="774585933"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">28</int>
+						<reference key="object" ref="989849468"/>
+						<reference key="parent" ref="774585933"/>
+					</object>
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
@@ -378,6 +441,8 @@
 				<string key="16.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="20.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="22.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="26.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="28.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="6.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="8.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="9.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -386,66 +451,10 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">25</int>
+			<int key="maxID">30</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
-				<object class="IBPartialClassDescription">
-					<string key="className">OverlayViewController</string>
-					<string key="superclassName">UIViewController</string>
-					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="done:">id</string>
-						<string key="startStop:">id</string>
-						<string key="takePhoto:">id</string>
-						<string key="timedTakePhoto:">id</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="actionInfosByName">
-						<object class="IBActionInfo" key="done:">
-							<string key="name">done:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="startStop:">
-							<string key="name">startStop:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="takePhoto:">
-							<string key="name">takePhoto:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="timedTakePhoto:">
-							<string key="name">timedTakePhoto:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="cancelButton">UIBarButtonItem</string>
-						<string key="startStopButton">UIBarButtonItem</string>
-						<string key="takePictureButton">UIBarButtonItem</string>
-						<string key="timedButton">UIBarButtonItem</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="cancelButton">
-							<string key="name">cancelButton</string>
-							<string key="candidateClassName">UIBarButtonItem</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="startStopButton">
-							<string key="name">startStopButton</string>
-							<string key="candidateClassName">UIBarButtonItem</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="takePictureButton">
-							<string key="name">takePictureButton</string>
-							<string key="candidateClassName">UIBarButtonItem</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="timedButton">
-							<string key="name">timedButton</string>
-							<string key="candidateClassName">UIBarButtonItem</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/OverlayViewController.h</string>
-					</object>
-				</object>
 				<object class="IBPartialClassDescription">
 					<string key="className">PhunPhotosViewController</string>
 					<string key="superclassName">UIViewController</string>
@@ -454,6 +463,7 @@
 						<string key="customCameraButtonPressed">id</string>
 						<string key="defaultCameraButtonPressed">id</string>
 						<string key="defaultLibraryButtonPressed">id</string>
+						<string key="defaultVideoCameraButtonPressed">id</string>
 						<string key="deletePhoto">id</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="actionInfosByName">
@@ -473,30 +483,26 @@
 							<string key="name">defaultLibraryButtonPressed</string>
 							<string key="candidateClassName">id</string>
 						</object>
+						<object class="IBActionInfo" key="defaultVideoCameraButtonPressed">
+							<string key="name">defaultVideoCameraButtonPressed</string>
+							<string key="candidateClassName">id</string>
+						</object>
 						<object class="IBActionInfo" key="deletePhoto">
 							<string key="name">deletePhoto</string>
 							<string key="candidateClassName">id</string>
 						</object>
 					</dictionary>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="navController">UINavigationController</string>
-						<string key="overlay">OverlayViewController</string>
-						<string key="picker">UIImagePickerController</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="navController">
+					<object class="NSMutableDictionary" key="outlets">
+						<string key="NS.key.0">navController</string>
+						<string key="NS.object.0">UINavigationController</string>
+					</object>
+					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<string key="NS.key.0">navController</string>
+						<object class="IBToOneOutletInfo" key="NS.object.0">
 							<string key="name">navController</string>
 							<string key="candidateClassName">UINavigationController</string>
 						</object>
-						<object class="IBToOneOutletInfo" key="overlay">
-							<string key="name">overlay</string>
-							<string key="candidateClassName">OverlayViewController</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="picker">
-							<string key="name">picker</string>
-							<string key="candidateClassName">UIImagePickerController</string>
-						</object>
-					</dictionary>
+					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
 						<string key="minorKey">./Classes/PhunPhotosViewController.h</string>

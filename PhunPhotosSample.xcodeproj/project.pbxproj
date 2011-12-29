@@ -41,6 +41,20 @@
 		C6BED81B14AB956A00786617 /* OFXMLMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BED80F14AB956A00786617 /* OFXMLMapper.m */; };
 		C6BED81E14AB95E600786617 /* OverlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6BED81C14AB95E600786617 /* OverlayViewController.xib */; };
 		C6BED81F14AB95E600786617 /* OverlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6BED81C14AB95E600786617 /* OverlayViewController.xib */; };
+		C6F7BF1B14AC2BF0003D596D /* CameraImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F7BF1914AC2BF0003D596D /* CameraImageHelper.m */; };
+		C6F7BF1C14AC2BF0003D596D /* CameraImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F7BF1914AC2BF0003D596D /* CameraImageHelper.m */; };
+		C6F7BF1E14AC2C18003D596D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F7BF1D14AC2C18003D596D /* QuartzCore.framework */; };
+		C6F7BF2014AC2C41003D596D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F7BF1F14AC2C41003D596D /* CoreMedia.framework */; };
+		C6F7BF2214AC2C53003D596D /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F7BF2114AC2C53003D596D /* CoreVideo.framework */; };
+		C6F7BF2414AC2C7E003D596D /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F7BF2314AC2C7E003D596D /* CoreImage.framework */; };
+		C6F7BF2614AC2CB0003D596D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F7BF2514AC2CB0003D596D /* AVFoundation.framework */; };
+		C6F7BF2E14AC2D65003D596D /* UIImage-Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F7BF2914AC2D65003D596D /* UIImage-Utilities.m */; };
+		C6F7BF2F14AC2D65003D596D /* UIImage-Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F7BF2914AC2D65003D596D /* UIImage-Utilities.m */; };
+		C6F7BF3014AC2D65003D596D /* Geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F7BF2B14AC2D65003D596D /* Geometry.m */; };
+		C6F7BF3114AC2D65003D596D /* Geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F7BF2B14AC2D65003D596D /* Geometry.m */; };
+		C6F7BF3214AC2D65003D596D /* Orientation.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F7BF2D14AC2D65003D596D /* Orientation.m */; };
+		C6F7BF3314AC2D65003D596D /* Orientation.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F7BF2D14AC2D65003D596D /* Orientation.m */; };
+		C6F7BF4C14AC5547003D596D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F7BF4B14AC5547003D596D /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +107,20 @@
 		C6BED80E14AB956A00786617 /* OFXMLMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFXMLMapper.h; sourceTree = "<group>"; };
 		C6BED80F14AB956A00786617 /* OFXMLMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OFXMLMapper.m; sourceTree = "<group>"; };
 		C6BED81D14AB95E600786617 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OverlayViewController.xib; sourceTree = "<group>"; };
+		C6F7BF1914AC2BF0003D596D /* CameraImageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraImageHelper.m; sourceTree = "<group>"; };
+		C6F7BF1A14AC2BF0003D596D /* CameraImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraImageHelper.h; sourceTree = "<group>"; };
+		C6F7BF1D14AC2C18003D596D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C6F7BF1F14AC2C41003D596D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C6F7BF2114AC2C53003D596D /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		C6F7BF2314AC2C7E003D596D /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		C6F7BF2514AC2CB0003D596D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C6F7BF2814AC2D65003D596D /* UIImage-Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage-Utilities.h"; sourceTree = "<group>"; };
+		C6F7BF2914AC2D65003D596D /* UIImage-Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage-Utilities.m"; sourceTree = "<group>"; };
+		C6F7BF2A14AC2D65003D596D /* Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geometry.h; sourceTree = "<group>"; };
+		C6F7BF2B14AC2D65003D596D /* Geometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Geometry.m; sourceTree = "<group>"; };
+		C6F7BF2C14AC2D65003D596D /* Orientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Orientation.h; sourceTree = "<group>"; };
+		C6F7BF2D14AC2D65003D596D /* Orientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Orientation.m; sourceTree = "<group>"; };
+		C6F7BF4B14AC5547003D596D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +128,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6F7BF4C14AC5547003D596D /* MobileCoreServices.framework in Frameworks */,
+				C6F7BF2614AC2CB0003D596D /* AVFoundation.framework in Frameworks */,
+				C6F7BF2414AC2C7E003D596D /* CoreImage.framework in Frameworks */,
+				C6F7BF2214AC2C53003D596D /* CoreVideo.framework in Frameworks */,
+				C6F7BF2014AC2C41003D596D /* CoreMedia.framework in Frameworks */,
+				C6F7BF1E14AC2C18003D596D /* QuartzCore.framework in Frameworks */,
 				C6BED7FD14AB951C00786617 /* SystemConfiguration.framework in Frameworks */,
 				C6BED7FB14AB950400786617 /* AudioToolbox.framework in Frameworks */,
 				C6BED7F914AB94FF00786617 /* CFNetwork.framework in Frameworks */,
@@ -125,6 +159,7 @@
 		C6BED7B414AB943900786617 = {
 			isa = PBXGroup;
 			children = (
+				C6F7BF2714AC2D4A003D596D /* Utilities */,
 				C6BED80214AB956A00786617 /* ObjectiveFlickr */,
 				C6BED7C914AB943900786617 /* PhunPhotosSample */,
 				C6BED7E714AB943900786617 /* PhunPhotosSampleTests */,
@@ -145,6 +180,12 @@
 		C6BED7C214AB943900786617 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C6F7BF4B14AC5547003D596D /* MobileCoreServices.framework */,
+				C6F7BF2514AC2CB0003D596D /* AVFoundation.framework */,
+				C6F7BF2314AC2C7E003D596D /* CoreImage.framework */,
+				C6F7BF2114AC2C53003D596D /* CoreVideo.framework */,
+				C6F7BF1F14AC2C41003D596D /* CoreMedia.framework */,
+				C6F7BF1D14AC2C18003D596D /* QuartzCore.framework */,
 				C6BED7FC14AB951C00786617 /* SystemConfiguration.framework */,
 				C6BED7FA14AB950400786617 /* AudioToolbox.framework */,
 				C6BED7F814AB94FF00786617 /* CFNetwork.framework */,
@@ -159,6 +200,8 @@
 		C6BED7C914AB943900786617 /* PhunPhotosSample */ = {
 			isa = PBXGroup;
 			children = (
+				C6F7BF1914AC2BF0003D596D /* CameraImageHelper.m */,
+				C6F7BF1A14AC2BF0003D596D /* CameraImageHelper.h */,
 				C6BED7FE14AB955A00786617 /* OverlayViewController.m */,
 				C6BED7FF14AB955A00786617 /* OverlayViewController.h */,
 				C6BED7D214AB943900786617 /* PhunPhotosAppDelegate.h */,
@@ -222,6 +265,19 @@
 			);
 			name = ObjectiveFlickr;
 			path = PhunPhotosSample/ObjectiveFlickr;
+			sourceTree = "<group>";
+		};
+		C6F7BF2714AC2D4A003D596D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C6F7BF2814AC2D65003D596D /* UIImage-Utilities.h */,
+				C6F7BF2914AC2D65003D596D /* UIImage-Utilities.m */,
+				C6F7BF2A14AC2D65003D596D /* Geometry.h */,
+				C6F7BF2B14AC2D65003D596D /* Geometry.m */,
+				C6F7BF2C14AC2D65003D596D /* Orientation.h */,
+				C6F7BF2D14AC2D65003D596D /* Orientation.m */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,6 +401,10 @@
 				C6BED81614AB956A00786617 /* ObjectiveFlickr.m in Sources */,
 				C6BED81814AB956A00786617 /* OFUtilities.m in Sources */,
 				C6BED81A14AB956A00786617 /* OFXMLMapper.m in Sources */,
+				C6F7BF1B14AC2BF0003D596D /* CameraImageHelper.m in Sources */,
+				C6F7BF2E14AC2D65003D596D /* UIImage-Utilities.m in Sources */,
+				C6F7BF3014AC2D65003D596D /* Geometry.m in Sources */,
+				C6F7BF3214AC2D65003D596D /* Orientation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +420,10 @@
 				C6BED81714AB956A00786617 /* ObjectiveFlickr.m in Sources */,
 				C6BED81914AB956A00786617 /* OFUtilities.m in Sources */,
 				C6BED81B14AB956A00786617 /* OFXMLMapper.m in Sources */,
+				C6F7BF1C14AC2BF0003D596D /* CameraImageHelper.m in Sources */,
+				C6F7BF2F14AC2D65003D596D /* UIImage-Utilities.m in Sources */,
+				C6F7BF3114AC2D65003D596D /* Geometry.m in Sources */,
+				C6F7BF3314AC2D65003D596D /* Orientation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
