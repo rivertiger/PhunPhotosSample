@@ -12,10 +12,10 @@
 
 @interface PhunPhotosAppDelegate : UIResponder <UIApplicationDelegate, UINavigationControllerDelegate>
 {
-    UINavigationController *navController;
+
 }
 @property (strong, nonatomic) UIWindow *window;
-@property (nonatomic, retain) IBOutlet UINavigationController *navController;
+
 @property (strong, nonatomic) PhunPhotosViewController *viewController;
 
 @end

@@ -8,7 +8,7 @@
 
 #import "PhunPhotosViewController.h"
 #import "OverlayViewController.h"
-//#import "MyViewController.h"
+
 
 
 //Constants
@@ -72,20 +72,21 @@ NSString *SRCallbackURLBaseString = @"snapnrun://auth";
     imagePicker.cameraCaptureMode = UIImagePickerControllerCameraCaptureModePhoto;
     imagePicker.cameraDevice = UIImagePickerControllerCameraDeviceRear;
     imagePicker.showsCameraControls = NO;
-    imagePicker.navigationBarHidden = NO;
-    imagePicker.toolbarHidden = NO;
+    imagePicker.navigationBarHidden = YES;
+    imagePicker.toolbarHidden = YES;
     imagePicker.wantsFullScreenLayout = YES;
-    //[self presentModalViewController:imagePicker animated:YES];
     
-    
-    // Insert the overlay
+    // Create the overlay and use the design from XIB //
     OverlayViewController *overlayview = [[OverlayViewController alloc] initWithNibName:@"OverlayViewController" bundle:nil];
+    // Call the setupImagePIcker method to specify the camera and location //
+    //[overlayview setupImagePicker:UIImagePickerControllerSourceTypeCamera];
+    
+    overlayview.imagePickerController = imagePicker;
+    overlayview.delegate = self;
     imagePicker.cameraOverlayView = overlayview.view;
-    //self.overlay.pickerReference = self.picker;
-    //imagePicker.cameraOverlayView = self.overlay.view;
     [self presentModalViewController:imagePicker animated:YES];
-    //imagePicker.delegate = self.overlay;
-    [overlayview release];
+    
+    //[overlayview release];
     [imagePicker release];
     
     
@@ -96,6 +97,8 @@ NSString *SRCallbackURLBaseString = @"snapnrun://auth";
 
 	
 }
+
+
 
 #pragma mark - View lifecycle
 
@@ -144,7 +147,6 @@ NSString *SRCallbackURLBaseString = @"snapnrun://auth";
 {	
     [overlay release];
     [picker release];
-    [navController release];
     [super dealloc];
 }
 
