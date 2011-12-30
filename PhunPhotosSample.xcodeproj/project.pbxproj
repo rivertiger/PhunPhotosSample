@@ -68,6 +68,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C62C94A614ACF349002E4DBA /* SampleAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleAPIKey.h; sourceTree = "<group>"; };
 		C67CC85C14ABD9A9004B8342 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TestNib.xib; sourceTree = "<group>"; };
 		C6BED7BF14AB943900786617 /* PhunPhotosSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhunPhotosSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6BED7C314AB943900786617 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -200,6 +201,7 @@
 		C6BED7C914AB943900786617 /* PhunPhotosSample */ = {
 			isa = PBXGroup;
 			children = (
+				C62C94A614ACF349002E4DBA /* SampleAPIKey.h */,
 				C6F7BF1914AC2BF0003D596D /* CameraImageHelper.m */,
 				C6F7BF1A14AC2BF0003D596D /* CameraImageHelper.h */,
 				C6BED7FE14AB955A00786617 /* OverlayViewController.m */,

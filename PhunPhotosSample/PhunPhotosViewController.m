@@ -7,8 +7,7 @@
 //
 
 #import "PhunPhotosViewController.h"
-#import "OverlayViewController.h"
-#import <MobileCoreServices/MobileCoreServices.h>
+
 
 
 //Constants
@@ -21,7 +20,7 @@ NSString *SRCallbackURLBaseString = @"snapnrun://auth";
 @implementation PhunPhotosViewController
 @synthesize flickrRequest;
 @synthesize navController;
-
+@synthesize webView;
 
 
 - (void)didReceiveMemoryWarning
@@ -33,8 +32,19 @@ NSString *SRCallbackURLBaseString = @"snapnrun://auth";
 - (IBAction)authorizeFlickrButtonPressed
 {
     NSLog(@"authorize Flickr button pressed.");
-    self.flickrRequest.sessionInfo = kFetchRequestTokenStep;
-    [self.flickrRequest fetchOAuthRequestTokenWithCallbackURL:[NSURL URLWithString:SRCallbackURLBaseString]];
+    //self.flickrRequest.sessionInfo = kFetchRequestTokenStep;
+    //[self.flickrRequest fetchOAuthRequestTokenWithCallbackURL:[NSURL URLWithString:SRCallbackURLBaseString]];
+    
+    flickrContext = [[OFFlickrAPIContext alloc] initWithAPIKey:OBJECTIVE_FLICKR_SAMPLE_API_KEY sharedSecret:OBJECTIVE_FLICKR_SAMPLE_API_SHARED_SECRET];
+	flickrRequest = [[OFFlickrAPIRequest alloc] initWithAPIContext:flickrContext];
+	[flickrRequest setDelegate:self];
+
+    
+    //Public Flickr API methods: DOES NOT REQUIRE AUTH LOGON //
+    //This flickr call assigns flickrRequest with the most recent Photos
+    [flickrRequest callAPIMethodWithGET:@"flickr.photos.getRecent" arguments:[NSDictionary dictionaryWithObjectsAndKeys:@"1", @"per_page", nil]];
+    
+    //NSLog(@"flickr SAMPLE API KEY IS: %@", OBJECTIVE_FLICKR_SAMPLE_API_KEY);
     
     
 }
@@ -70,6 +80,7 @@ NSString *SRCallbackURLBaseString = @"snapnrun://auth";
 
 - (IBAction)customCameraButtonPressed
 {
+    //Requires OverlayViewController class
     NSLog(@"customCamera button pressed.");
     UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
     imagePicker.sourceType = UIImagePickerControllerSourceTypeCamera;
@@ -128,8 +139,8 @@ NSString *SRCallbackURLBaseString = @"snapnrun://auth";
     
 }
 
-#pragma mark -
-#pragma mark OverlayViewControllerDelegate
+#pragma mark  
+#pragma mark - OverlayViewControllerDelegate Methods
 
 // as a delegate we are being told a picture was taken
 - (void)didTakePicture:(UIImage *)picture
@@ -147,8 +158,62 @@ NSString *SRCallbackURLBaseString = @"snapnrun://auth";
 
 }
 
+#pragma mark
+#pragma mark - Flickr Delegate Methods
+- (void)flickrAPIRequest:(OFFlickrAPIRequest *)inRequest didCompleteWithResponse:(NSDictionary *)inResponseDictionary
+{
+    NSLog(@"flickr Response Dictionary is:%@", inResponseDictionary);
+	NSDictionary *photoDict = [[inResponseDictionary valueForKeyPath:@"photos.photo"] objectAtIndex:0];
+	
+	NSString *title = [photoDict objectForKey:@"title"];
+	if (![title length]) {
+		title = @"No title";
+	}
+	
+    
+    UITextView *textView = [[UITextView alloc] init];
+    
+    //This returns the URL for entire HTML page
+	NSURL *photoSourcePage = [flickrContext photoWebPageURLFromDictionary:photoDict];
+    //This returns the URL for just the photo
+    NSURL *photoURL = [flickrContext photoSourceURLFromDictionary:photoDict size:OFFlickrSmallSize];
+    
+    NSLog(@"photoSourcePage URL is:%@", photoURL);
+    NSURLRequest *urLReturnedObject = [NSURLRequest requestWithURL:photoURL];
+    [webView loadRequest:urLReturnedObject];
+    
+    //NSURL *photoURL = [flickrContext photoSourceURLFromDictionary:photoDict size:OFFlickrSmallSize];
+    
+    //Fix these later to render correctly//
+	//NSDictionary *linkAttr = [NSDictionary dictionaryWithObjectsAndKeys:photoSourcePage, NSLinkAttributeName, nil];
+	//NSMutableAttributedString *attrString = [[[NSMutableAttributedString alloc] initWithString:title attributes:linkAttr] autorelease];	
+	//[[textView textStorage] setAttributedString:attrString];
+    
+	//NSURL *photoURL = [flickrContext photoSourceURLFromDictionary:photoDict size:OFFlickrSmallSize];
+    /*
+	NSString *htmlSource = [NSString stringWithFormat:
+							@"<html>"
+							@"<head>"
+							@"  <style>body { margin: 0; padding: 0; } </style>"
+							@"</head>"
+							@"<body>"
+							@"  <table border=\"0\" align=\"center\" valign=\"center\" cellspacing=\"0\" cellpadding=\"0\" height=\"240\">"
+							@"    <tr><td><img src=\"%@\" /></td></tr>"
+							@"  </table>"
+							@"</body>"
+							@"</html>"
+							, photoURL];
+	
+	[[webView mainFrame] loadHTMLString:htmlSource baseURL:nil];
+     */
+}
 
-#pragma mark - View lifecycle
+- (void)flickrAPIRequest:(OFFlickrAPIRequest *)inRequest didFailWithError:(NSError *)inError
+{
+}
+
+
+#pragma mark - Default View lifecycle Methods
 
 - (void)viewDidLoad
 {
@@ -194,6 +259,7 @@ NSString *SRCallbackURLBaseString = @"snapnrun://auth";
 - (void)dealloc
 {	
     [super dealloc];
-}
+    [webView release];
+}   
 
 @end

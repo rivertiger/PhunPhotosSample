@@ -9,9 +9,13 @@
 #import <AudioToolbox/AudioServices.h>
 #import <UIKit/UIKit.h>
 
-#import "OverlayViewController.h"
+#import "SampleAPIKey.h"
 #import "ObjectiveFlickr.h"
+
+#import "OverlayViewController.h"
 #import "PhunPhotosAppDelegate.h"
+#import "OverlayViewController.h"
+#import <MobileCoreServices/MobileCoreServices.h>
 
 @interface PhunPhotosViewController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate, OverlayViewControllerDelegate, OFFlickrAPIRequestDelegate>
 {
@@ -20,6 +24,7 @@
     OFFlickrAPIContext *flickrContext;
 	NSString *flickrUserName;
     UINavigationController *navController;
+    IBOutlet UIWebView *webView;
 
 }
 //Make navController Accessible
@@ -31,8 +36,10 @@
 @property (nonatomic, retain) OFFlickrAPIRequest *flickrRequest;
 @property (nonatomic, readonly) OFFlickrAPIContext *flickrContext;
 @property (nonatomic, retain) NSString *flickrUserName;
+@property (nonatomic, retain) UIWebView *webView;
 - (IBAction)authorizeFlickrButtonPressed;
 - (void)setAndStoreFlickrAuthToken:(NSString *)inAuthToken secret:(NSString *)inSecret;
+
 
 //default Camera Methods
 - (IBAction)defaultCameraButtonPressed;
