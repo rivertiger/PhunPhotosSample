@@ -2,7 +2,7 @@
 //  PhunPhotosViewController.m
 //  PhunPhotosSample
 //
-//  Created by Ryan Newsome on 12/28/11.
+//  Created by James Nguyen on 12/28/11.
 //  Copyright (c) 2011 Phunware. All rights reserved.
 //
 
@@ -17,24 +17,33 @@ NSString *kSetImagePropertiesStep = @"kSetImagePropertiesStep";
 NSString *kUploadImageStep = @"kUploadImageStep";
 NSString *SRCallbackURLBaseString = @"snapnrun://auth";
 
+// preferably, the auth token is stored in the keychain, but since working with keychain is a pain, we use the simpler default system
+NSString *kStoredAuthTokenKeyName = @"FlickrOAuthToken";
+NSString *kStoredAuthTokenSecretKeyName = @"FlickrOAuthTokenSecret";
+
+NSString *kGetAccessTokenStep = @"kGetAccessTokenStep";
+NSString *kCheckTokenStep = @"kCheckTokenStep";
+NSString *SnapAndRunShouldUpdateAuthInfoNotification = @"SnapAndRunShouldUpdateAuthInfoNotification";
+
 @implementation PhunPhotosViewController
 @synthesize flickrRequest;
+@synthesize flickrContext;
 @synthesize navController;
 @synthesize webView;
+@synthesize authorizeDescriptionLabel;
 
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Release any cached data, images, etc that aren't in use.
-}
+
+#pragma mark - IBAction Flickr Button Methods
 
 - (IBAction)authorizeFlickrButtonPressed
 {
     NSLog(@"authorize Flickr button pressed.");
     //self.flickrRequest.sessionInfo = kFetchRequestTokenStep;
     //[self.flickrRequest fetchOAuthRequestTokenWithCallbackURL:[NSURL URLWithString:SRCallbackURLBaseString]];
+    //NSLog(@"flickr SAMPLE API KEY IS: %@", OBJECTIVE_FLICKR_SAMPLE_API_KEY);
     
+    //Set the API Key and call the ObjectiveFlickr Classes
     flickrContext = [[OFFlickrAPIContext alloc] initWithAPIKey:OBJECTIVE_FLICKR_SAMPLE_API_KEY sharedSecret:OBJECTIVE_FLICKR_SAMPLE_API_SHARED_SECRET];
 	flickrRequest = [[OFFlickrAPIRequest alloc] initWithAPIContext:flickrContext];
 	[flickrRequest setDelegate:self];
@@ -42,12 +51,141 @@ NSString *SRCallbackURLBaseString = @"snapnrun://auth";
     
     //Public Flickr API methods: DOES NOT REQUIRE AUTH LOGON //
     //This flickr call assigns flickrRequest with the most recent Photos
-    [flickrRequest callAPIMethodWithGET:@"flickr.photos.getRecent" arguments:[NSDictionary dictionaryWithObjectsAndKeys:@"1", @"per_page", nil]];
+    //[flickrRequest callAPIMethodWithGET:@"flickr.photos.getRecent" arguments:[NSDictionary dictionaryWithObjectsAndKeys:@"1", @"per_page", nil]];
     
-    //NSLog(@"flickr SAMPLE API KEY IS: %@", OBJECTIVE_FLICKR_SAMPLE_API_KEY);
+    
+    if ([self.flickrContext.OAuthToken length]) {
+		[self flickrRequest].sessionInfo = kCheckTokenStep;
+    [flickrRequest callAPIMethodWithGET:@"flickr.test.login" arguments:[NSDictionary dictionaryWithObjectsAndKeys:@"1", @"per_page", nil]];
+    }
+    
+    
     
     
 }
+
+#pragma mark - Flickr Custom Methods
+
+- (void)setAndStoreFlickrAuthToken:(NSString *)inAuthToken secret:(NSString *)inSecret
+{
+	if (![inAuthToken length] || ![inSecret length]) {
+		self.flickrContext.OAuthToken = nil;
+        self.flickrContext.OAuthTokenSecret = nil;        
+		[[NSUserDefaults standardUserDefaults] removeObjectForKey:kStoredAuthTokenKeyName];
+        [[NSUserDefaults standardUserDefaults] removeObjectForKey:kStoredAuthTokenSecretKeyName];
+        
+	}
+	else {
+		self.flickrContext.OAuthToken = inAuthToken;
+        self.flickrContext.OAuthTokenSecret = inSecret;
+		[[NSUserDefaults standardUserDefaults] setObject:inAuthToken forKey:kStoredAuthTokenKeyName];
+		[[NSUserDefaults standardUserDefaults] setObject:inSecret forKey:kStoredAuthTokenSecretKeyName];
+	}
+}
+
+- (OFFlickrAPIContext *)flickrContext
+{
+    if (!flickrContext) {
+        flickrContext = [[OFFlickrAPIContext alloc] initWithAPIKey:OBJECTIVE_FLICKR_SAMPLE_API_KEY sharedSecret:OBJECTIVE_FLICKR_SAMPLE_API_SHARED_SECRET];
+        
+        NSString *authToken = [[NSUserDefaults standardUserDefaults] objectForKey:kStoredAuthTokenKeyName];
+        NSString *authTokenSecret = [[NSUserDefaults standardUserDefaults] objectForKey:kStoredAuthTokenSecretKeyName];
+        
+        if (([authToken length] > 0) && ([authTokenSecret length] > 0)) {
+            flickrContext.OAuthToken = authToken;
+            flickrContext.OAuthTokenSecret = authTokenSecret;
+        }
+    }
+    
+    return flickrContext;
+}
+
+
+- (OFFlickrAPIRequest *)flickrRequest
+{
+	if (!flickrRequest) {
+		flickrRequest = [[OFFlickrAPIRequest alloc] initWithAPIContext:self.flickrContext];
+		flickrRequest.delegate = self;		
+	}
+	
+	return flickrRequest;
+}
+
+
+#pragma mark - Flickr Delegate Methods
+- (void)flickrAPIRequest:(OFFlickrAPIRequest *)inRequest didCompleteWithResponse:(NSDictionary *)inResponseDictionary
+{
+    NSLog(@"flickr Response Dictionary is:%@", inResponseDictionary);
+	NSDictionary *photoDict = [[inResponseDictionary valueForKeyPath:@"photos.photo"] objectAtIndex:0];
+	
+	NSString *title = [photoDict objectForKey:@"title"];
+	if (![title length]) {
+		title = @"No title";
+	}
+	
+    
+    //UITextView *textView = [[UITextView alloc] init];
+    
+    //This returns the URL for entire HTML page
+	//NSURL *photoSourcePage = [flickrContext photoWebPageURLFromDictionary:photoDict];
+    //This returns the URL for just the photo
+    NSURL *photoURL = [flickrContext photoSourceURLFromDictionary:photoDict size:OFFlickrSmallSize];
+    
+    NSLog(@"photoSourcePage URL is:%@", photoURL);
+    NSURLRequest *urLReturnedObject = [NSURLRequest requestWithURL:photoURL];
+    [webView loadRequest:urLReturnedObject];
+    
+    //NSURL *photoURL = [flickrContext photoSourceURLFromDictionary:photoDict size:OFFlickrSmallSize];
+    
+    //Fix these later to render correctly//
+	//NSDictionary *linkAttr = [NSDictionary dictionaryWithObjectsAndKeys:photoSourcePage, NSLinkAttributeName, nil];
+	//NSMutableAttributedString *attrString = [[[NSMutableAttributedString alloc] initWithString:title attributes:linkAttr] autorelease];	
+	//[[textView textStorage] setAttributedString:attrString];
+    
+	//NSURL *photoURL = [flickrContext photoSourceURLFromDictionary:photoDict size:OFFlickrSmallSize];
+    /*
+     NSString *htmlSource = [NSString stringWithFormat:
+     @"<html>"
+     @"<head>"
+     @"  <style>body { margin: 0; padding: 0; } </style>"
+     @"</head>"
+     @"<body>"
+     @"  <table border=\"0\" align=\"center\" valign=\"center\" cellspacing=\"0\" cellpadding=\"0\" height=\"240\">"
+     @"    <tr><td><img src=\"%@\" /></td></tr>"
+     @"  </table>"
+     @"</body>"
+     @"</html>"
+     , photoURL];
+     
+     [[webView mainFrame] loadHTMLString:htmlSource baseURL:nil];
+     */
+}
+
+- (void)flickrAPIRequest:(OFFlickrAPIRequest *)inRequest didFailWithError:(NSError *)inError
+{
+	if (inRequest.sessionInfo == kGetAccessTokenStep) {
+	}
+	else if (inRequest.sessionInfo == kCheckTokenStep) {
+		[self setAndStoreFlickrAuthToken:nil secret:nil];
+	}
+	
+	//[activityIndicator stopAnimating];
+	//[progressView removeFromSuperview];
+    
+	[[[[UIAlertView alloc] initWithTitle:@"API Failed" message:[inError description] delegate:nil cancelButtonTitle:@"Dismiss" otherButtonTitles:nil] autorelease] show];
+	[[NSNotificationCenter defaultCenter] postNotificationName:SnapAndRunShouldUpdateAuthInfoNotification object:self];
+}
+
+#pragma mark - IB Action Methods
+
+- (void)checkForPreviousLogin 
+{
+    if ([self.flickrContext.OAuthToken length]) {
+		[self flickrRequest].sessionInfo = kCheckTokenStep;
+		[flickrRequest callAPIMethodWithGET:@"flickr.test.login" arguments:nil];
+    }
+}
+
 
 - (IBAction)defaultLibraryButtonPressed
 {	
@@ -139,7 +277,7 @@ NSString *SRCallbackURLBaseString = @"snapnrun://auth";
     
 }
 
-#pragma mark  
+
 #pragma mark - OverlayViewControllerDelegate Methods
 
 // as a delegate we are being told a picture was taken
@@ -152,65 +290,13 @@ NSString *SRCallbackURLBaseString = @"snapnrun://auth";
 // as a delegate we are told to finished with the camera
 - (void)didFinishWithCamera
 {
-    NSMutableArray *capturedImages;
+    //NSMutableArray *capturedImages;
     [self dismissModalViewControllerAnimated:YES];
 
 
 }
 
-#pragma mark
-#pragma mark - Flickr Delegate Methods
-- (void)flickrAPIRequest:(OFFlickrAPIRequest *)inRequest didCompleteWithResponse:(NSDictionary *)inResponseDictionary
-{
-    NSLog(@"flickr Response Dictionary is:%@", inResponseDictionary);
-	NSDictionary *photoDict = [[inResponseDictionary valueForKeyPath:@"photos.photo"] objectAtIndex:0];
-	
-	NSString *title = [photoDict objectForKey:@"title"];
-	if (![title length]) {
-		title = @"No title";
-	}
-	
-    
-    UITextView *textView = [[UITextView alloc] init];
-    
-    //This returns the URL for entire HTML page
-	NSURL *photoSourcePage = [flickrContext photoWebPageURLFromDictionary:photoDict];
-    //This returns the URL for just the photo
-    NSURL *photoURL = [flickrContext photoSourceURLFromDictionary:photoDict size:OFFlickrSmallSize];
-    
-    NSLog(@"photoSourcePage URL is:%@", photoURL);
-    NSURLRequest *urLReturnedObject = [NSURLRequest requestWithURL:photoURL];
-    [webView loadRequest:urLReturnedObject];
-    
-    //NSURL *photoURL = [flickrContext photoSourceURLFromDictionary:photoDict size:OFFlickrSmallSize];
-    
-    //Fix these later to render correctly//
-	//NSDictionary *linkAttr = [NSDictionary dictionaryWithObjectsAndKeys:photoSourcePage, NSLinkAttributeName, nil];
-	//NSMutableAttributedString *attrString = [[[NSMutableAttributedString alloc] initWithString:title attributes:linkAttr] autorelease];	
-	//[[textView textStorage] setAttributedString:attrString];
-    
-	//NSURL *photoURL = [flickrContext photoSourceURLFromDictionary:photoDict size:OFFlickrSmallSize];
-    /*
-	NSString *htmlSource = [NSString stringWithFormat:
-							@"<html>"
-							@"<head>"
-							@"  <style>body { margin: 0; padding: 0; } </style>"
-							@"</head>"
-							@"<body>"
-							@"  <table border=\"0\" align=\"center\" valign=\"center\" cellspacing=\"0\" cellpadding=\"0\" height=\"240\">"
-							@"    <tr><td><img src=\"%@\" /></td></tr>"
-							@"  </table>"
-							@"</body>"
-							@"</html>"
-							, photoURL];
-	
-	[[webView mainFrame] loadHTMLString:htmlSource baseURL:nil];
-     */
-}
 
-- (void)flickrAPIRequest:(OFFlickrAPIRequest *)inRequest didFailWithError:(NSError *)inError
-{
-}
 
 
 #pragma mark - Default View lifecycle Methods
@@ -261,5 +347,12 @@ NSString *SRCallbackURLBaseString = @"snapnrun://auth";
     [super dealloc];
     [webView release];
 }   
+
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Release any cached data, images, etc that aren't in use.
+}
 
 @end

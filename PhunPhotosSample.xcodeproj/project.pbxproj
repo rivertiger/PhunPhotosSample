@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C67CC85D14ABD9A9004B8342 /* TestNib.xib in Resources */ = {isa = PBXBuildFile; fileRef = C67CC85B14ABD9A9004B8342 /* TestNib.xib */; };
-		C67CC85E14ABD9A9004B8342 /* TestNib.xib in Resources */ = {isa = PBXBuildFile; fileRef = C67CC85B14ABD9A9004B8342 /* TestNib.xib */; };
 		C6BED7C414AB943900786617 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BED7C314AB943900786617 /* UIKit.framework */; };
 		C6BED7C614AB943900786617 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BED7C514AB943900786617 /* Foundation.framework */; };
 		C6BED7C814AB943900786617 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BED7C714AB943900786617 /* CoreGraphics.framework */; };
@@ -69,7 +67,6 @@
 
 /* Begin PBXFileReference section */
 		C62C94A614ACF349002E4DBA /* SampleAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleAPIKey.h; sourceTree = "<group>"; };
-		C67CC85C14ABD9A9004B8342 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TestNib.xib; sourceTree = "<group>"; };
 		C6BED7BF14AB943900786617 /* PhunPhotosSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhunPhotosSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6BED7C314AB943900786617 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C6BED7C514AB943900786617 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -108,8 +105,8 @@
 		C6BED80E14AB956A00786617 /* OFXMLMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFXMLMapper.h; sourceTree = "<group>"; };
 		C6BED80F14AB956A00786617 /* OFXMLMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OFXMLMapper.m; sourceTree = "<group>"; };
 		C6BED81D14AB95E600786617 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OverlayViewController.xib; sourceTree = "<group>"; };
-		C6F7BF1914AC2BF0003D596D /* CameraImageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraImageHelper.m; sourceTree = "<group>"; };
-		C6F7BF1A14AC2BF0003D596D /* CameraImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraImageHelper.h; sourceTree = "<group>"; };
+		C6F7BF1914AC2BF0003D596D /* CameraImageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraImageHelper.m; path = PhunPhotosSample/CameraImageHelper.m; sourceTree = "<group>"; };
+		C6F7BF1A14AC2BF0003D596D /* CameraImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraImageHelper.h; path = PhunPhotosSample/CameraImageHelper.h; sourceTree = "<group>"; };
 		C6F7BF1D14AC2C18003D596D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		C6F7BF1F14AC2C41003D596D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		C6F7BF2114AC2C53003D596D /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
@@ -202,8 +199,6 @@
 			isa = PBXGroup;
 			children = (
 				C62C94A614ACF349002E4DBA /* SampleAPIKey.h */,
-				C6F7BF1914AC2BF0003D596D /* CameraImageHelper.m */,
-				C6F7BF1A14AC2BF0003D596D /* CameraImageHelper.h */,
 				C6BED7FE14AB955A00786617 /* OverlayViewController.m */,
 				C6BED7FF14AB955A00786617 /* OverlayViewController.h */,
 				C6BED7D214AB943900786617 /* PhunPhotosAppDelegate.h */,
@@ -211,7 +206,6 @@
 				C6BED7D514AB943900786617 /* PhunPhotosViewController.h */,
 				C6BED7D614AB943900786617 /* PhunPhotosViewController.m */,
 				C6BED7CA14AB943900786617 /* Supporting Files */,
-				C67CC85B14ABD9A9004B8342 /* TestNib.xib */,
 			);
 			path = PhunPhotosSample;
 			sourceTree = "<group>";
@@ -272,6 +266,8 @@
 		C6F7BF2714AC2D4A003D596D /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				C6F7BF1914AC2BF0003D596D /* CameraImageHelper.m */,
+				C6F7BF1A14AC2BF0003D596D /* CameraImageHelper.h */,
 				C6F7BF2814AC2D65003D596D /* UIImage-Utilities.h */,
 				C6F7BF2914AC2D65003D596D /* UIImage-Utilities.m */,
 				C6F7BF2A14AC2D65003D596D /* Geometry.h */,
@@ -356,7 +352,6 @@
 				C6BED7CE14AB943900786617 /* InfoPlist.strings in Resources */,
 				C6BED7DA14AB943900786617 /* PhunPhotosViewController.xib in Resources */,
 				C6BED81E14AB95E600786617 /* OverlayViewController.xib in Resources */,
-				C67CC85D14ABD9A9004B8342 /* TestNib.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +361,6 @@
 			files = (
 				C6BED7EC14AB943900786617 /* InfoPlist.strings in Resources */,
 				C6BED81F14AB95E600786617 /* OverlayViewController.xib in Resources */,
-				C67CC85E14ABD9A9004B8342 /* TestNib.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,14 +434,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C67CC85B14ABD9A9004B8342 /* TestNib.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C67CC85C14ABD9A9004B8342 /* en */,
-			);
-			name = TestNib.xib;
-			sourceTree = "<group>";
-		};
 		C6BED7CC14AB943900786617 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
